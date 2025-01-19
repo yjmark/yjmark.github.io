@@ -1,8 +1,10 @@
-## Application of Geospatial Information in Military Field, September-December 2024
+## Application of Geospatial Information in the Military Field
+
+The application of Geospatial Information in the military field is as important as the intelligence field. Here are three examples of how geospatial information is applied in the military field utilizing JavaScript with public data in the U.S. military.
 
 ---
 
-### Project 1. Major U.S. Military Facilities: Storymap Project by JavaScript
+### The Storymap of Major U.S. Military Facilities
 
 September 25, 2024
 
@@ -14,7 +16,7 @@ The storymap introduces five major military facilities in the U.S.: West Point, 
 
 ---
 
-### Project 2. DefenseBoard: Dashboard Project by JavaScript
+### DefenseBoard
 
 October 26, 2024
 
@@ -26,50 +28,52 @@ The map on the right displays publicly accessible base locations across the Unit
 
 ---
 
-### Project 3 Base Management System: User Engagement Project by JavaScript
+### Base Management System
 
 December 18, 2024
 
-The Base Management System is a system for manage all kinds of events in a military base, such as training, exercise, sports, construction projects etc. This engagement project uses the Norfolk Naval Base in Virginia as an example. Therefore, the expected primary users of this system are the personnel stationed at the Norfolk Naval Base. The system will share schedules and locations of activities with relevant personnel within the base.
-<br><br>Click [here](https://yjmark.github.io/engagement-project/Jun_Youngsang/) to see the live version of the DefenseBoard.
+The Base Management System is a system for manage all kinds of events in a military base, such as training, exercise, sports, construction projects etc. This user-engagement project uses the Norfolk Naval Base in Virginia as an example. Therefore, the expected primary users of this system are the personnel stationed at the Norfolk Naval Base. The system will share schedules and locations of activities with relevant personnel within the base by utilizing Google Firebase.
+<br><br>Click [here](https://yjmark.github.io/engagement-project/Jun_Youngsang/) to see the live version of the Base Management System.
 
 <img src="images/engagementimage.jpeg?raw=true"/>
 
 ---
 
 
-## Geospatial Analytics in Public Policy, September-December 2024
+## Geospatial Analytics in Public Policy
+
+
 
 [Project 1 M](/sample_page)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
-[Project 2 Do Households Value Transit-rich Neighborhoods compared to Others in Boston?](/pdf/sample_presentation.pdf)
+[Do Households Value Transit-rich Neighborhoods compared to Others in Boston?](/pdf/sample_presentation.pdf)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
-[Project 3 Geospatial Risk Prediction](http://example.com/)
+[Geospatial Risk Prediction](http://example.com/)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
-[Project 4 Targeting A Housing Subsidy](http://example.com/)
+[Targeting A Housing Subsidy](http://example.com/)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
-[Project 5 Recidivism Memo](http://example.com/)
+[Recidivism Memo](http://example.com/)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
-[Project 6 Suggestion for Home Price Prediction Modeling in Philadelphia](http://example.com/)
+[Suggestion for Home Price Prediction Modeling in Philadelphia](http://example.com/)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
-[Project 7 Forecast Train Occupancy Levels](http://example.com/)
+[Forecast Train Occupancy Levels](http://example.com/)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
 
-### Communications using Geospatial Information, September-December 2024
+## Communications using Geospatial Information
 
 [Project 1 M](/sample_page)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
@@ -86,7 +90,11 @@ The Base Management System is a system for manage all kinds of events in a milit
 [Project 4 30 Day Mapping Challenge](http://example.com/)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
-### 30 Day Mapping Challenge, November 2024
+---
+
+### 30 Day Map Challenge, November 2024
+
+[The 30 Day Map Challenge](https://30daymapchallenge.com/) is <i>daily social mapping project happening every November</i>. In November 2024, I participated in this challenge on Day 1 (Points), Day 5 (Journey), Day 10 (Pen and Paper), Day 12 (Time and Space), Day 14 (A World Map), Day 16 (Choropleth), Day 20 (Openstreetmap), Day 22 (Two Colors), Day 24 (Only Circular), and Day 25 (Heat) to enhance my communication skills using geospatial data that is both accessible and reproducible.
 
 [Day 1 Points: Savannah City Power Street Lights Map](https://github.com/yjmark/30DayMapChallenge_2024_Jun/blob/main/Day01_PointsofStreetLights/)
 <br>The map denotes 19,024 street lights' location in the City of Savannah which Georgia Power owned.
@@ -137,13 +145,13 @@ The Base Management System is a system for manage all kinds of events in a milit
 <br>What are the most dangerous neighborhoods in Philadelphia? A heat map displaying the number of incidents in 2024—categorized by drug offenses, burglaries, and thefts—is shown with police district boundaries and station locations.
 <br><img src="https://github.com/yjmark/30DayMapChallenge_2024_Jun/blob/main/Day25_Heat/25-youngsang-jun.png?raw=true"/>
 
-### Transportation Memorandum Writing Sample
+---
+
+## Transportation Memorandum Writing Sample
 
 - [Aerial Planning (TBD)](http://example.com/)
 - [Multimodal Transport (TBD)](http://example.com/)
 - [Introduction of the Transportation Planning](http://example.com/)
-- [Project 4 Title](http://example.com/)
-- [Project 5 Title](http://example.com/)
 
 ---
 <p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
