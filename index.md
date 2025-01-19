@@ -1,29 +1,44 @@
-## Portfolio
+## Application of Geospatial Information in Military Field, September-December 2024
 
 ---
 
-### Application of Geospatial Information in Military Field, September-December 2024
+### Project 1. Major U.S. Military Facilities: Storymap Project by JavaScript
 
-[Project 1 Major U.S. Military Facilities: Storymap Project by JavaScript](https://yjmark.github.io/story-map-project/Jun_Youngsang/)
-<img src="images/storymapimage.jpeg?raw=true"/>
+September 25, 2024
+
 This storymap aims to provide a brief history of the U.S. military and an overview of major military bases for those who may work for/with U.S. Forces regarding U.S. military facilities in the future. 
 The storymap introduces five major military facilities in the U.S.: West Point, Eglin Air Force Base, Naval Station Norfolk, Camp Pendleton, and Peterson Space Force Base.
+<br><br>Click [here](https://yjmark.github.io/story-map-project/Jun_Youngsang/) to see the live version of the storymap.
+
+<img src="images/storymapimage.jpeg?raw=true"/>
 
 ---
-[Project 2 DefenseBoard: Dashboard Project by JavaScript](https://yjmark.github.io/dashboard-project/Jun_Youngsang/)
-<img src="images/dashboardimage.jpeg?raw=true"/>
+
+### Project 2. DefenseBoard: Dashboard Project by JavaScript
+
+October 26, 2024
+
 The DefenseBoard is a dashboard that uses spatial data to link various types of attributes in the defense sector such as military personnel, facilities, budget, logistics, etc.
 The map on the right displays publicly accessible base locations across the United States, while on the left, users can view attribute data by base, military unit, or region.
+<br><br>Click [here](https://yjmark.github.io/dashboard-project/Jun_Youngsang/) to see the live version of the DefenseBoard.
+
+<img src="images/dashboardimage.jpeg?raw=true"/>
 
 ---
-[Project 3 Base Management System: User Engagement Project by JavaScript](https://yjmark.github.io/engagement-project/Jun_Youngsang/)
-<img src="images/engagementimage.jpeg?raw=true"/>
+
+### Project 3 Base Management System: User Engagement Project by JavaScript
+
+December 18, 2024
+
 The Base Management System is a system for manage all kinds of events in a military base, such as training, exercise, sports, construction projects etc. This engagement project uses the Norfolk Naval Base in Virginia as an example. Therefore, the expected primary users of this system are the personnel stationed at the Norfolk Naval Base. The system will share schedules and locations of activities with relevant personnel within the base.
+<br><br>Click [here](https://yjmark.github.io/engagement-project/Jun_Youngsang/) to see the live version of the DefenseBoard.
+
+<img src="images/engagementimage.jpeg?raw=true"/>
 
 ---
 
 
-### Geospatial Analytics in Public Policy, September-December 2024
+## Geospatial Analytics in Public Policy, September-December 2024
 
 [Project 1 M](/sample_page)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
