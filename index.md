@@ -64,12 +64,22 @@ The Base Management System is a system for manage all kinds of events in a milit
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
-[Suggestion for Home Price Prediction Modeling in Philadelphia](http://example.com/)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+
+### Suggestion for Home Price Prediction Modeling in Philadelphia
+
+November 12, 2024
+
+<br><br>Click [here](https://yjmark.github.io/Midterm_Agarwal_Jun/Midterm_Agarwal_Jun_FInal_predict_resubmit.html) to see the technical memo.
+<br><img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
-[Forecast Train Occupancy Levels](http://example.com/)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+
+### Forecast Train Occupancy Levels
+
+December 13, 2024
+
+<br><br>Click [here](https://yjmark.github.io/Final_Indriaty_Jun/Final_Indriaty_Jun.html) to see the technical memo.
+<br><img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
 
