@@ -52,7 +52,7 @@ September 19, 2024
 
 This report conducted a Transit Oriented Development (TOD) analysis of Boston, by using subway stations data from the Massachusetts Bay Transportation Authority (MBTA), along with American Community Survey (ACS) data of 2012 and 2022. The result shows that people are willing to pay higher prices to live near a transit station in 2022 compared to 2012.
 <br><br>Click [here](https://yjmark.github.io/PPA_HW2/Jun_YoungsangHW2 copy.html) to see the full technical memo.
-<br><img src="images/dummy_thumbnail.jpg?raw=true"/>
+<br><img src="images/hw2-1.png?raw=true"/><img src="images/hw2-2.png?raw=true"/>
 
 ---
 
@@ -62,7 +62,7 @@ November 12, 2024
 
 This memo applies aspects of the Broken Windows Theory to visualize drug law violations incidents and produce predictive models to forecast similar crimes in other areas of Philadelphia.
 <br><br>Click [here](https://yjmark.github.io/PPA_HW3/Jun_YoungsangHW3_resubmit.html) to see the full technical memo.
-<br><img src="images/dummy_thumbnail.jpg?raw=true"/>
+<br><img src="images/hw3.png?raw=true"/>
 
 ---
 
@@ -70,9 +70,9 @@ This memo applies aspects of the Broken Windows Theory to visualize drug law vio
 
 November 1, 2024
 
-
+Emil City has conducted marketing campaigns targeting homeowners who qualify for a home repair tax credit program. However, due to a low conversion rate and random outreach to eligible homeowners, a more proactive approach is required. To improve the efficiency of the program, research was conducted to convert all the client-level data from previous campaigns into an improved model that can better target their limited outreach resources. This memo presents the results of the trained classifier and a cost-benefit analysis by using the results of the classification, by logistic regression of given datasets.
 <br><br>Click [here](https://yjmark.github.io/PPA_HW4/Jun_YoungsangHW4.html) to see the full technical memo.
-<br><img src="images/dummy_thumbnail.jpg?raw=true"/>
+<br><img src="images/hw4.png?raw=true"/><img src="images/hw4-2.png?raw=true"/>
 
 ---
 
@@ -80,9 +80,10 @@ November 1, 2024
 
 November 15, 2024
 
+"A rehabilitated prisoner is not one who learns to survive well in prison but one who succeeds in the world outside prison on release." 1 Emil City has operated an ex-offender job training program based on this principle. In particular, for inmates with a recidivism risk below 50%, subsidy for education is enhanced by offering incentives three times higher than those given to inmates with a recidivism risk above 50%. However, recent austerity measures have limited the budget, and some officials have raised concerns about expanding the City’s limited job training resources on ex-offenders who recidivate shortly after their release is not good policy. There have also been ongoing concerns about the fairness of predicting recidivism rates across races. To improve the program’s efficiency, a new recidivism risk prediction algorithm should be considered. This recommendation outlines an improvement plan based on a cost-benefit analysis of recidivism risk predictions using the data of 7,214 inmates over 2013–2014.
 This is recommendation to enhance the job training program for ex-offenders with a new recidivism algorithm.
-<br><br>Click [here](https://yjmark.github.io/PPA_HW4/Jun_YoungsangHW4.html) to see the full technical memo.
-<br><img src="images/dummy_thumbnail.jpg?raw=true"/>
+<br><br>Click [here](https://yjmark.github.io/PPA_HW5/Jun_YoungsangHW5.html) to see the full technical memo.
+<br><img src="images/hw5.png?raw=true"/>
 
 ---
 
