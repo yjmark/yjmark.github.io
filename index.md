@@ -42,26 +42,47 @@ The Base Management System is a system for manage all kinds of events in a milit
 
 ## Geospatial Analytics in Public Policy
 
-
-
-[Project 1 M](/sample_page)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+Public policy is a field that requires a lot of geospatial analysis. Here are some examples of how geospatial information is applied in public policy utilizing R with public data.
 
 ---
-[Do Households Value Transit-rich Neighborhoods compared to Others in Boston?](/pdf/sample_presentation.pdf)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+
+### Do Households Value Transit-rich Neighborhoods compared to Others in Boston?
+
+September 19, 2024
+
+This report conducted a Transit Oriented Development (TOD) analysis of Boston, by using subway stations data from the Massachusetts Bay Transportation Authority (MBTA), along with American Community Survey (ACS) data of 2012 and 2022. The result shows that people are willing to pay higher prices to live near a transit station in 2022 compared to 2012.
+<br><br>Click [here](https://yjmark.github.io/PPA_HW2/Jun_YoungsangHW2 copy.html) to see the full technical memo.
+<br><img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
-[Geospatial Risk Prediction](http://example.com/)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+
+### Geospatial Risk Prediction
+
+November 12, 2024
+
+This memo applies aspects of the Broken Windows Theory to visualize drug law violations incidents and produce predictive models to forecast similar crimes in other areas of Philadelphia.
+<br><br>Click [here](https://yjmark.github.io/PPA_HW3/Jun_YoungsangHW3_resubmit.html) to see the full technical memo.
+<br><img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
-[Targeting A Housing Subsidy](http://example.com/)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+
+### Targeting A Housing Subsidy
+
+November 1, 2024
+
+
+<br><br>Click [here](https://yjmark.github.io/PPA_HW4/Jun_YoungsangHW4.html) to see the full technical memo.
+<br><img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
-[Recidivism Memo](http://example.com/)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+
+### Recidivism Memo
+
+November 15, 2024
+
+This is recommendation to enhance the job training program for ex-offenders with a new recidivism algorithm.
+<br><br>Click [here](https://yjmark.github.io/PPA_HW4/Jun_YoungsangHW4.html) to see the full technical memo.
+<br><img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
 
