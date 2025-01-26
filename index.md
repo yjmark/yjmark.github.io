@@ -129,22 +129,18 @@ December 13, 2024
 
 ## Communications using Geospatial Information
 
-[Project 1 M](/sample_page) <img src="images/dummy_thumbnail.jpg?raw=true"/>
+### To Preserve and Well-manage Old Buildings in Philadelphia
+
+November 19, 2024
+
+What would it feel like if my parents or grandparents’ generations lived in the same building I live in 30 or 50 years ago? As a Korean student studying abroad, I am not used to that feeling because there are a lot of new cities and new buildings in Korea, but it is very common for the residents of Philadelphia.
+<br><br>Click [here](https://yjmark.github.io/Reproducible_Data-Driven_Story/HW5_Jun_Youngsang.html) to see the full story.
 
 ---
-editor_options: 
-  markdown: 
-    wrap: sentence
----
 
-[Project 3 E](http://example.com/) <img src="images/dummy_thumbnail.jpg?raw=true"/>
+### 30 Day Map Challenge
 
----
-[Project 4 30 Day Mapping Challenge](http://example.com/)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
----
-
-### 30 Day Map Challenge, November 2024
+November 1-30, 2024
 
 [The 30 Day Map Challenge](https://30daymapchallenge.com/) is <i>daily social mapping project happening every November</i>.
 In November 2024, I participated in this challenge on Day 1 (Points), Day 5 (Journey), Day 10 (Pen and Paper), Day 12 (Time and Space), Day 14 (A World Map), Day 16 (Choropleth), Day 20 (Openstreetmap), Day 22 (Two Colors), Day 24 (Only Circular), and Day 25 (Heat) to enhance my communication skills using geospatial data that is both accessible and reproducible.
