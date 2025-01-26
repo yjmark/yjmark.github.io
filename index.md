@@ -135,8 +135,8 @@ November 19, 2024
 
 What would it feel like if my parents or grandparents’ generations lived in the same building I live in 30 or 50 years ago? As a Korean student studying abroad, I am not used to that feeling because there are a lot of new cities and new buildings in Korea, but it is very common for the residents of Philadelphia.
 <br><br>Click [here](https://yjmark.github.io/Reproducible_Data-Driven_Story/HW5_Jun_Youngsang.html) to see the full story.
-<br><img src="images/communication1.jpg?raw=true"/>
-<br><img src="images/communication2.jpg?raw=true"/>
+<br><img src="images/communication1.png?raw=true"/>
+<br><img src="images/communication2.png?raw=true"/>
 
 ------------------------------------------------------------------------
 
