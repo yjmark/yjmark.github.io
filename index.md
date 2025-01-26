@@ -52,8 +52,9 @@ The system will share schedules and locations of activities with relevant person
 
 ## Geospatial Analysis in Public Policy
 
-Public policy is a field that requires a bunch of geospatial analysis.
-Here are some examples of how geospatial information is applied in public policy utilizing R with public open data.
+Geospatial analysis plays a critical role in the field of public policy.
+Here are some examples demonstrating the use of geospatial information in public policy with R and open data.
+These examples are drawn from [Steif (2021), ](https://urbanspatial.github.io/PublicPolicyAnalytics/index.html)<i> [Public Policy Analytics](https://urbanspatial.github.io/PublicPolicyAnalytics/index.html)</i>.
 
 ------------------------------------------------------------------------
 
@@ -113,17 +114,29 @@ This is recommendation to enhance the job training program for ex-offenders with
 
 November 12, 2024
 
+Zillow has struggled to accurately estimate home prices, partly because it is a national platform that often lacks detailed, localized information. Urban dynamics have become increasingly complex, and understanding housing markets requires a more granular approach that incorporates local factors like government policies, crime, gentrification, pollution levels, and access to public transit. Our objective is to use local data to create a model that predicts Philadelphia home prices with greater accuracy.
+By incorporating data on crime, zoning, pollution, and transit-oriented development, we aim to build a more contextually rich model that reflects the true dynamics of the city.
+
 <br><br>Click [here](https://yjmark.github.io/Midterm_Agarwal_Jun/Midterm_Agarwal_Jun_FInal_predict_resubmit.html) to see the technical memo.
-<br><img src="images/dummy_thumbnail.jpg?raw=true"/>
+<br><img src="images/houseprice1.png?raw=true"/>
+<br><img src="images/houseprice2.png?raw=true"/>
+<br><img src="images/houseprice3.png?raw=true"/>
 
 ------------------------------------------------------------------------
 
-### Forecast Train Occupancy Levels
+### Forecast Train Occupancy Levels in Belgium
 
 December 13, 2024
 
+Nationale Maatschappij der Belgische Spoorwegen (NMBS), or Société nationale des chemins de fer belges (SNCB) is the National Railway Company of Belgium and the largest railway operator in the country.
+The company needs to postpone its expansion due to a shortage of train personnel. Additionally, rising energy costs have increased operating expenses. Meanwhile, the company continues to face revenue losses due to low passenger numbers on some routes.
+Given these challenges, the company must develop a strategy to optimize resource allocation, improve operational efficiency, and increase revenue, particularly on low-occupancy routes.
+This project aims to provide transportation planners at NMBS with a model called Re-train, which is to predict train occupancy levels for different Origin-Destination (OD) pairs in the Belgian railway system.
+
 <br><br>Click [here](https://yjmark.github.io/Final_Indriaty_Jun/Final_Indriaty_Jun.html) to see the technical memo.
-<br><img src="images/dummy_thumbnail.jpg?raw=true"/>
+<br><img src="images/occupancy1.png?raw=true"/>
+<br><img src="images/occupancy2.png?raw=true"/>
+<br><img src="images/occupancy3.png?raw=true"/>
 
 ------------------------------------------------------------------------
 
@@ -134,6 +147,8 @@ December 13, 2024
 November 19, 2024
 
 What would it feel like if my parents or grandparents’ generations lived in the same building I live in 30 or 50 years ago? As a Korean student studying abroad, I am not used to that feeling because there are a lot of new cities and new buildings in Korea, but it is very common for the residents of Philadelphia.
+Philadelphia’s rich history is embedded in its streets, buildings, and neighborhoods. This is confirmed by data and maps. 
+
 <br><br>Click [here](https://yjmark.github.io/Reproducible_Data-Driven_Story/HW5_Jun_Youngsang.html) to see the full story.
 <br><img src="images/communication1.png?raw=true"/>
 <br><img src="images/communication2.png?raw=true"/>
