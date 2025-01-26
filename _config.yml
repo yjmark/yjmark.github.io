@@ -4,7 +4,7 @@ description: > # your text below (remove <br> elements if you don't need line br
   I am a civil servant of the Republic of Korea where I work for the <a href="https://www.mnd.go.kr/mbshome/mbs/mndEN">Ministry of National Defense</a>. I am currently pursuing a <a href="https://www.design.upenn.edu/urban-spatial-analytics">Master of Urban Spatial Analytics at Stuart Weitzman School of Design, University of Pennsylvania</a>. I am interested in the application and integration of GIS in the military field. I am also interested in address, geocoding, and wayfinding systems that utilize mobile maps. 
   <br><br>
   <a href="https://www.linkedin.com/in/yjmark/">View My LinkedIn Profile</a> 
-  
+  <a href="pdf/JUN_CV_v12_clean_linkedin.pdf">View My CV</a>
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
 - jekyll-remote-theme
