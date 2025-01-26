@@ -135,8 +135,10 @@ November 19, 2024
 
 What would it feel like if my parents or grandparents’ generations lived in the same building I live in 30 or 50 years ago? As a Korean student studying abroad, I am not used to that feeling because there are a lot of new cities and new buildings in Korea, but it is very common for the residents of Philadelphia.
 <br><br>Click [here](https://yjmark.github.io/Reproducible_Data-Driven_Story/HW5_Jun_Youngsang.html) to see the full story.
+<br><img src="images/communication1.jpg?raw=true"/>
+<br><img src="images/communication2.jpg?raw=true"/>
 
----
+------------------------------------------------------------------------
 
 ### 30 Day Map Challenge
 
@@ -149,9 +151,11 @@ In November 2024, I participated in this challenge on Day 1 (Points), Day 5 (Jou
 <br><img src="https://github.com/yjmark/30DayMapChallenge_2024_Jun/blob/main/Day01_PointsofStreetLights/01-youngsang-jun.png?raw=true"/>
 
 ---
+
 [Day 5 Journey: The Path of a U.S. Army Career](https://github.com/yjmark/30DayMapChallenge_2024_Jun/blob/main/Day05_Journey/)
 <br>How many times does a U.S. Army service member relocate? On average, they are estimated to relocate 10-12 times during a 20-year career. Here is a map showing the major milestones of an example career path by location.
 <br><img src="https://github.com/yjmark/30DayMapChallenge_2024_Jun/blob/main/Day05_Journey/05-youngsang-jun.png?raw=true"/>
+
 ---
 
 [Day 10 Pen and Paper: My Childhood Map (Bupyeong-gu, Incheon, Korea)](https://github.com/yjmark/30DayMapChallenge_2024_Jun/blob/main/Day10_PenandPaper/) <br>This paper-and-pen map shows the neighborhood around Buyeong-ro in Bupyeong-gu, Incheon, where I lived during my childhood.
@@ -159,9 +163,11 @@ The places I remember most are those where spent time with my beloved family and
 <br><img src="https://github.com/yjmark/30DayMapChallenge_2024_Jun/blob/main/Day10_PenandPaper/Day10_Jun.jpg?raw=true"/>
 
 ---
+
 [Day 12 Time and Space: The Beginning of Roman Catholicism in Korea](https://github.com/yjmark/30DayMapChallenge_2024_Jun/blob/main/Day12_KoreaandRomanCatholic/)
 <br>In the 17th century, Catholicism was introduced to Korea by envoys traveling to and from Beijing, China. Initially, it was regarded as a new field of study rather than a religion and was referred to as \"Western Learning (Seohak)\". It is unprecedented worldwide that Catholic faith was grown by Koreans themselves before the arrival of Western missionaries.
 <br><img src="https://github.com/yjmark/30DayMapChallenge_2024_Jun/blob/main/Day12_KoreaandRomanCatholic/12-youngsang-jun.png?raw=true"/>
+
 ---
 
 [Day 14 A World Map: Do All Countries Use Street Addresses?](https://github.com/yjmark/30DayMapChallenge_2024_Jun/blob/main/Day14_UPU_StreetAddress/)
@@ -170,9 +176,11 @@ Some countries have street names for every road and use them in addresses, while
 <br><img src="https://github.com/yjmark/30DayMapChallenge_2024_Jun/blob/main/Day14_UPU_StreetAddress/14-youngsang-jun.jpg?raw=true"/>
 
 ---
+
 [Day 16 Choropleth: Median Household Income and Travel Time to Work Pattern in Three Eastern Cities](https://github.com/yjmark/30DayMapChallenge_2024_Jun/blob/main/Day16_ACS_Income-TimeTravel)
 <br>How is the relationship between commute time and household income distributed spatially? Today's map examines cases in Philadelphia, Washington D.C., and Boston.
 <br><img src="https://github.com/yjmark/30DayMapChallenge_2024_Jun/blob/main/Day16_ACS_Income-TimeTravel/16-youngsang-jun.png?raw=true"/>
+
 ---
 
 [Day 20 Openstreetmap: Exploring Historic Sites in Philadelphia with OpenStreetMap](https://github.com/yjmark/30DayMapChallenge_2024_Jun/blob/main/Day20_Openstreetmap/) <br>Today's map shows the locations of Philadelphia's historic sites visualized on OpenStreetMap.
@@ -180,9 +188,11 @@ Today, all properties of historical places in Philadelphia is managed by the Cit
 <br><img src="https://github.com/yjmark/30DayMapChallenge_2024_Jun/blob/main/Day20_Openstreetmap/20-youngsang-jun.png?raw=true"/>
 
 ---
+
 [Day 22 Two Colors: Veteran Population Share in U.S. Cities](https://github.com/yjmark/30DayMapChallenge_2024_Jun/blob/main/Day22_TwoColors/)
 <br>Where in each city do veterans tend to live in larger numbers? Cities in green have a veteran percentage above the median (6.9%) of the age 18+ population, while cities in dark gray fall below the median.
 <br><img src="https://github.com/yjmark/30DayMapChallenge_2024_Jun/blob/main/Day22_TwoColors/22-youngsang-jun.png?raw=true"/>
+
 ---
 
 [Day 24 Only Circular: Fare Recovery Ratio of U.S. Transit Agencies in 2009-2019](https://github.com/yjmark/30DayMapChallenge_2024_Jun/blob/main/Day24_OnlyCircularFRR/) <br>The Fare Recovery Ratio (FRR) is a measure of the extent to which a transit agency’s operating expenses are covered by passenger fares.
@@ -190,9 +200,11 @@ The high FRR (close to 1) means that the agency is efficient of revenue generati
 <br><img src="https://github.com/yjmark/30DayMapChallenge_2024_Jun/blob/main/Day24_OnlyCircularFRR/24-youngsang-jun.png?raw=true"/>
 
 ---
+
 [Day 25 Heat: Philadelphia 2024 Crime Incidents Heat Map](https://github.com/yjmark/30DayMapChallenge_2024_Jun/blob/main/Day25_Heat/)
 <br>What are the most dangerous neighborhoods in Philadelphia? A heat map displaying the number of incidents in 2024—categorized by drug offenses, burglaries, and thefts—is shown with police district boundaries and station locations.
 <br><img src="https://github.com/yjmark/30DayMapChallenge_2024_Jun/blob/main/Day25_Heat/25-youngsang-jun.png?raw=true"/>
+
 ---
 
 ## Transportation Memorandum Writing Sample
