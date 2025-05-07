@@ -181,7 +181,7 @@ November 1-30, 2024 / Instructor: [Prof. Delmelle, Elizabeth](https://scholar.go
 
 <p style="font-size:11px">
 
-Page template forked from [evanca](https://github.com/evanca/quick-portfolio)
+Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a>
 
 </p>
 
