@@ -1,6 +1,6 @@
-# Youngsang's Portfolio
+# Youngsang's Portfolio<a id="military"></a>
 
-## <span id="military">Application of Geospatial Information in the Military Field</span>
+## Application of Geospatial Information in the Military Field
 
 The application of geospatial information is crucial not only in the intelligence field but also in the non-intelligence military domain. The first example demonstrates how remote sensing is utilized in military-related urban planning, employing machine learning through Python. Additionally, the following three examples show where geospatial information can be applied in the military sector, utilizing JavaScript with public data.
 
@@ -42,11 +42,11 @@ December 18, 2024 / Instructor: [Poe, Mjumbe](https://about.mjumbepoe.com/)
 
 The Base Management System is a system for manage all kinds of events in a military base, such as training, exercise, sports, construction projects etc. This user-engagement project uses the Norfolk Naval Base in Virginia as an example. Therefore, the expected primary users of this system are the personnel stationed at the Norfolk Naval Base. The system will share schedules and locations of activities with relevant personnel within the base by utilizing Google Firebase. <br><br>Click [here](https://yjmark.github.io/engagement-project/Jun_Youngsang/) to see the live version of the Base Management System.
 
-<img src="images/engagementimage.jpeg?raw=true"/>
+<img src="images/engagementimage.jpeg?raw=true"/><a id="PPA"></a>
 
 ------------------------------------------------------------------------
 
-## <span id="PPA">Geospatial Analysis in Public Policy</span>
+## Geospatial Analysis in Public Policy
 
 Geospatial analysis plays a critical role in the field of public policy. Here are some examples demonstrating the use of geospatial information in public policy with R and open data.
 
@@ -110,11 +110,11 @@ Zillow has struggled to accurately estimate home prices, partly because it is a 
 
 December 13, 2024 / worked with Tutut, Indriaty; Instructor: [Prof. Fichman, Michael](http://michael-fichman.com/)
 
-Nationale Maatschappij der Belgische Spoorwegen (NMBS), or Société nationale des chemins de fer belges (SNCB) is the National Railway Company of Belgium and the largest railway operator in the country. The company needs to postpone its expansion due to a shortage of train personnel. Additionally, rising energy costs have increased operating expenses. Meanwhile, the company continues to face revenue losses due to low passenger numbers on some routes. Given these challenges, the company must develop a strategy to optimize resource allocation, improve operational efficiency, and increase revenue, particularly on low-occupancy routes. This project aims to provide transportation planners at NMBS with a model called Re-train, which is to predict train occupancy levels for different Origin-Destination (OD) pairs in the Belgian railway system by logistic regression.<br><br>Click [here](https://yjmark.github.io/Final_Indriaty_Jun/Final_Indriaty_Jun.html) to see the technical memo. <br><img src="images/occupancy1.png?raw=true"/> <br><img src="images/occupancy2.png?raw=true"/> <br><img src="images/occupancy3.png?raw=true"/>
+Nationale Maatschappij der Belgische Spoorwegen (NMBS), or Société nationale des chemins de fer belges (SNCB) is the National Railway Company of Belgium and the largest railway operator in the country. The company needs to postpone its expansion due to a shortage of train personnel. Additionally, rising energy costs have increased operating expenses. Meanwhile, the company continues to face revenue losses due to low passenger numbers on some routes. Given these challenges, the company must develop a strategy to optimize resource allocation, improve operational efficiency, and increase revenue, particularly on low-occupancy routes. This project aims to provide transportation planners at NMBS with a model called Re-train, which is to predict train occupancy levels for different Origin-Destination (OD) pairs in the Belgian railway system by logistic regression.<br><br>Click [here](https://yjmark.github.io/Final_Indriaty_Jun/Final_Indriaty_Jun.html) to see the technical memo. <br><img src="images/occupancy1.png?raw=true"/> <br><img src="images/occupancy2.png?raw=true"/> <br><img src="images/occupancy3.png?raw=true"/><a id="Comm"></a>
 
 ------------------------------------------------------------------------
 
-## <span id="Comm">Communications using Geospatial Information</span>
+## Communications using Geospatial Information
 
 ### To Preserve and Well-manage Old Buildings in Philadelphia
 
