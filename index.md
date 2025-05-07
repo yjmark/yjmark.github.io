@@ -1,12 +1,16 @@
 # Youngsang's Portfolio
 
-## Application of Remote Sensing in the Urban Planning
-
-<i>Will be open in Spring 2025</i>
-
 ## Application of Geospatial Information in the Military Field
 
 The application of geospatial information is important not only in the intelligence field but also in the military field. Here are three examples of how geospatial information is applied in the military field utilizing JavaScript with public data in the U.S. military.
+
+------------------------------------------------------------------------
+
+### Classification of Military Installations in North Korea on OpenStreetMap using Satellite Imagery and Machine Learning
+
+April 24, 2025
+
+This assignment aims to create a complete classification of all military installations categories in North Korea (nK) based on Sentinel-2 Multispectral imagery, Visible Infrared Imaging Radiometer Suite (VIRRS) imagery, and OpenStreetMap (OSM) annotations. To achieve this, Random Forest (RF) algorithm was firstly applied using Python with 3 image values including NDVI, BSI, and NTL, along with longitude and latitude, the area of each polygon, and country from OSM polygons as independent variables. This approach achieved a classification accuracy of 67%. Second, Clay's model, which is able to utilize more pre-computed EO embeddings, was applied alongside the first RF model, and but failed to sampling and patching.<br><br>Click [here](https://github.com/yjmark/Remote-sensing/blob/main/assignments/Final_Jun_Youngsang/Final_Jun_Youngsang_clay.ipynb) to see the full technical memo.<br><br><img src="images/rs1.png?raw=true"/><img src="images/rs2.png?raw=true"/>
 
 ------------------------------------------------------------------------
 
@@ -46,6 +50,18 @@ Geospatial analysis plays a critical role in the field of public policy. Here ar
 
 ------------------------------------------------------------------------
 
+### Crashes and the City: How Built Environments Shape Robotaxi Crashes in San Francisco
+
+May 5, 2025 / worked with [Wang, Shuai](https://github.com/shuaiwo) and [Jiang, Emmanuel](https://github.com/emma6537)
+
+Advisors: Dr. Lin, Zhongjie; [Tang, Ziyi](https://github.com/tang-ziyi); [Yi, Shengao](https://github.com/ShengaoYi)
+
+Robotaxi adoption is no longer hypothetical. This study provides visualization and modeling that shows how built environments shape robotaxi crash risks in San Francisco, allowing planners and policymakers to implement a "Try-Before-You-Build” approach.<br><br>Click [here](https://yjmark.github.io/robotaxi/) to see the live version of the dashboard.
+
+<img src="images/robotaxi.jpeg?raw=true"/>
+
+------------------------------------------------------------------------
+
 ### Do Households Value Transit-rich Neighborhoods compared to Others in Boston?
 
 September 19, 2024
@@ -64,7 +80,7 @@ We can use geospatial analysis for prediction as well. This memo applies aspects
 
 ### Targeting A Housing Subsidy
 
-November 1, 2024
+November 1, 2024 
 
 Emil City has conducted marketing campaigns targeting homeowners who qualify for a home repair tax credit program. However, due to a low conversion rate and random outreach to eligible homeowners, a more proactive approach is required. To improve the efficiency of the program, research was conducted to convert all the client-level data from previous campaigns into an improved model that can better target their limited outreach resources. This memo presents the results of the trained classifier and a cost-benefit analysis by using the results of the classification, by logistic regression of given datasets. <br><br>Click [here](https://yjmark.github.io/PPA_HW4/Jun_YoungsangHW4.html) to see the full technical memo. <br><img src="images/hw4.png?raw=true"/> <img src="images/hw4-2.png?raw=true"/>
 
@@ -80,7 +96,7 @@ November 15, 2024
 
 ### Suggestion for Home Price Prediction Modeling in Philadelphia
 
-November 12, 2024
+November 12, 2024 / worked with Agarwal, Vrinda
 
 Zillow has struggled to accurately estimate home prices, partly because it is a national platform that often lacks detailed, localized information. Urban dynamics have become increasingly complex, and understanding housing markets requires a more granular approach that incorporates local factors like government policies, crime, gentrification, pollution levels, and access to public transit. Our objective is to use local data to create a model that predicts Philadelphia home prices with greater accuracy. By incorporating data on crime, zoning, pollution, and transit-oriented development, we aim to build a more contextually rich model that reflects the true dynamics of the city.<br><br>Click [here](https://yjmark.github.io/Midterm_Agarwal_Jun/Midterm_Agarwal_Jun_FInal_predict_resubmit.html) to see the technical memo. <br><img src="images/houseprice1.png?raw=true"/> <br><img src="images/houseprice2.png?raw=true"/> <br><img src="images/houseprice3.png?raw=true"/>
 
@@ -88,7 +104,7 @@ Zillow has struggled to accurately estimate home prices, partly because it is a 
 
 ### Forecast Train Occupancy Levels in Belgium
 
-December 13, 2024
+December 13, 2024 / worked with Tutut, Indriaty
 
 Nationale Maatschappij der Belgische Spoorwegen (NMBS), or Société nationale des chemins de fer belges (SNCB) is the National Railway Company of Belgium and the largest railway operator in the country. The company needs to postpone its expansion due to a shortage of train personnel. Additionally, rising energy costs have increased operating expenses. Meanwhile, the company continues to face revenue losses due to low passenger numbers on some routes. Given these challenges, the company must develop a strategy to optimize resource allocation, improve operational efficiency, and increase revenue, particularly on low-occupancy routes. This project aims to provide transportation planners at NMBS with a model called Re-train, which is to predict train occupancy levels for different Origin-Destination (OD) pairs in the Belgian railway system by logistic regression.<br><br>Click [here](https://yjmark.github.io/Final_Indriaty_Jun/Final_Indriaty_Jun.html) to see the technical memo. <br><img src="images/occupancy1.png?raw=true"/> <br><img src="images/occupancy2.png?raw=true"/> <br><img src="images/occupancy3.png?raw=true"/>
 
