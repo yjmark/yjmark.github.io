@@ -5,3 +5,25 @@ body, p, h1, h2, h3, h4, h5, h6, span, a, div {
 html {
   scroll-behavior: smooth;
 }
+
+nav#main-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #ddd;
+  z-index: 1000;
+  padding: 12px 0;
+  text-align: center;
+  font-weight: bold;
+}
+
+nav#main-menu a {
+  color: white;
+  text-decoration: none;
+  margin: 0 12px;
+}
+
+nav#main-menu a:hover {
+  text-decoration: underline;
+}
