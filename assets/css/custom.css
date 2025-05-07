@@ -9,8 +9,9 @@ html {
 nav#main-menu {
   position: fixed;
   top: 0;
+  left: 0;
   width: 100%;
-  background: #003366;
+  background: #003764;
   color: white;
   z-index: 1000;
   padding: 12px 0;
@@ -25,5 +26,15 @@ nav#main-menu a {
 }
 
 nav#main-menu a:hover {
+  text-decoration: underline;
+}
+
+a {
+  color: #008364; 
+  text-decoration: none;
+}
+
+a:hover {
+  color: #008364; 
   text-decoration: underline;
 }

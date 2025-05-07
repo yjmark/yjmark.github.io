@@ -48,7 +48,7 @@ The Base Management System is a system for manage all kinds of events in a milit
 
 ## <a id="PPA" style="scroll-margin-top: 80px;"></a>Geospatial Analytics in Public Policy
 
-Geospatial analysis plays a critical role in the field of public policy. Here are some examples demonstrating the use of geospatial information in public policy with R and open data.
+Geospatial analytics plays a critical role in the field of public policy. Here are some examples demonstrating the use of geospatial information in public policy with R and open data.
 
 ------------------------------------------------------------------------
 
