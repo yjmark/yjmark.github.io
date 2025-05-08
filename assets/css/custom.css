@@ -22,7 +22,10 @@ html {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 0 24px;
+  max-width: 1200px;
   flex-wrap: wrap;
+  margin: 0 auto;  
 }
 
 .nav-title {
@@ -37,6 +40,7 @@ html {
   border: none;
   color: white;
   cursor: pointer;
+  padding: 4px 8px; 
 }
 
 .nav-links {
@@ -52,7 +56,10 @@ html {
   text-decoration: none;
 }
 
-/* ✅ 반응형: 화면 좁아지면 햄버거 메뉴로 */
+.nav-links li a:hover {
+  text-decoration: underline;
+}
+
 @media (max-width: 960px) {
   .nav-toggle {
     display: block;
