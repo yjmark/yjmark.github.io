@@ -1,4 +1,4 @@
-# <a id="top"></a>Youngsang's Portfolio
+# Youngsang's Portfolio
 
 ## <a id="Defense" style="scroll-margin-top: 80px;"></a>Geospatial Information in Defense
 
@@ -197,7 +197,7 @@ Page template forked from <a href="https://github.com/evanca/quick-portfolio">ev
 
 </p>
 
-<a href="#top" style="
+<a href="#" onclick="window.scrollTo({top: 0, behavior: 'smooth'}); return false;" style="
   position: fixed;
   bottom: 30px;
   right: 30px;
