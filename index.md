@@ -180,7 +180,7 @@ Instructor: [Prof. Delmelle, Elizabeth](https://scholar.google.com/citations?use
 
 ------------------------------------------------------------------------
 
-## <span id="transport">Transportation Memorandum Writing Sample</span>
+## <span id="transport" style="scroll-margin-top: 80px;">Transportation Memorandum Writing Sample</span>
 
 ### Advanced Transportation Seminar (focused on Aerial Planning) 
 
@@ -200,8 +200,12 @@ Instructor: Guerra, Erick
 
 This memorandum recommends alternatives for three persistent challenges facing the California High-Speed Rail (CAHSR) project. First, to address delays in rights-of-way acquisition, particularly interfering with public utilities, the Authority is recommended to strengthen cooperation with relevant agencies and pursue legislative solutions to expedite processes. Second, to build public trust, the Authority should conduct a transparent route decision process, including public hearings and sharing international case studies. Lastly, to induce long-term ridership, the Authority is recommended to integrate seamlessly with local transit systems through coordinated fare structures, including partnerships with ride-share and micromobility companies to enhance first- and last-mile connectivity.
 
-### [Introduction of the Transportation Planning](pdf/Final_Jun.pdf)
+### [(Introduction of the Transportation Planning) Four Memorandum of ](pdf/Final_Jun.pdf)
 
+December 12, 2024<br>
+Instructor: Guerra, Erick
+
+Recommendation of Transit-Oriented Development Plan for the City of Philadelphia, Review of the Proposed Minimum Parking Requirements for New Multifamily Housing Developments, Recommendation of Philadelphia City Cycle Strategy, Recommendation of Purchasing Cars Subsidy Policy for Low-income Households, 
 
 
 ------------------------------------------------------------------------
