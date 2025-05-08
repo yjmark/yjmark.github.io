@@ -23,10 +23,6 @@ nav#main-menu a {
   color: white;
   text-decoration: none;
   margin: 0 12px;
-  display: inline-block;
-  max-width: 200px;
-  white-space: normal;   /* ✅ 줄바꿈 허용 */
-  vertical-align: top;
 }
 
 nav#main-menu a:hover {
