@@ -1,4 +1,4 @@
-## <a id="Defense" style="scroll-margin-top: 80px;"></a>Geospatial Information in Defense
+## Geospatial Information in Defense
 
 The application of geospatial information is crucial not only in the intelligence field but also in the non-intelligence military domain. The first example demonstrates how remote sensing is utilized in military-related urban planning, employing machine learning through Python. Additionally, the following three examples show where geospatial information can be applied in the military sector, utilizing JavaScript with public data.
 
