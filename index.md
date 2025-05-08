@@ -122,6 +122,17 @@ Nationale Maatschappij der Belgische Spoorwegen (NMBS), or Société nationale d
 
 ------------------------------------------------------------------------
 
+### (Thesis) A Study on the Factors of Occurrence of Time Difference of Experience for a Transferred Policy: focusing on Address Policy in Republic of Korea 🇰🇷
+
+February, 2025<br>
+Thesis advisor: Prof. Choi, Taehyun (Graduate School of Public Administration, Seoul National University)
+
+It has been 7 years since Korea's full implementation of the Road Name Address. However, why do so many citizens still prefer land-lot addresses or the names of facilities such as buildings and apartments in situations where one needs to search for or describe a certain location? To find the answer to this question, this study reviews the introduction process of the address policy in Korea as an 'incomplete policy transfer', presented by Dolowitz and Marsh (2000), and describes the factors that cause the time difference of policy experience, a concept proposed by Kim (2015), in address policy. First, this study analyzed the results of Seoul Metropolitan Government's survey on the public opinion on Road Name Address conducted between 2017 and 2019. Study on the results confirmed that there was an time difference of policy experience in the location and identification function of the Road Name Address. Next, through process tracing methods such as literature research, interviews, and spatial analysis, the creation of the address usage environment has been analyzed over time in two parts: an offline environment such as road name signs for pedestrians and drivers, and an online environment such as mobile maps and navigation. Results show that, the construction of the offline address usage environment was being delayed due to the differences in perception between central and local governments. And online address usage environment was being incompletely implemented due to differences in perception between the government and private sectors. Finally, this study suggests that in order to shorten the time difference of policy experience in address policy, the location and identification function of address should be clearly defined, and in particular, cooperation with the private sectors that implements the online address usage environment is important.
+
+Click [here](https://s-space.snu.ac.kr/handle/10371/176254) to see the full thesis. <br><img src="images/page_67_img_10.png?raw=true"/> <br><img src="images/page_91_img_10.png?raw=true"/>
+
+------------------------------------------------------------------------
+
 ## <a id="Comm" style="scroll-margin-top: 80px;"></a>Communications using Geospatial Information
 
 ### To Preserve and Well-manage Old Buildings in Philadelphia
@@ -200,12 +211,18 @@ Instructor: Guerra, Erick
 
 This memorandum recommends alternatives for three persistent challenges facing the California High-Speed Rail (CAHSR) project. First, to address delays in rights-of-way acquisition, particularly interfering with public utilities, the Authority is recommended to strengthen cooperation with relevant agencies and pursue legislative solutions to expedite processes. Second, to build public trust, the Authority should conduct a transparent route decision process, including public hearings and sharing international case studies. Lastly, to induce long-term ridership, the Authority is recommended to integrate seamlessly with local transit systems through coordinated fare structures, including partnerships with ride-share and micromobility companies to enhance first- and last-mile connectivity.
 
-### [(Introduction of the Transportation Planning) Four Memorandum of ](pdf/Final_Jun.pdf)
+### [(Introduction of the Transportation Planning) Four Memorandum of Transportation Planning in U.S.](pdf/Final_Jun.pdf)
 
 December 12, 2024<br>
 Instructor: Guerra, Erick
 
-Recommendation of Transit-Oriented Development Plan for the City of Philadelphia, Review of the Proposed Minimum Parking Requirements for New Multifamily Housing Developments, Recommendation of Philadelphia City Cycle Strategy, Recommendation of Purchasing Cars Subsidy Policy for Low-income Households, 
+- Recommendation of Transit-Oriented Development Plan for the City of Philadelphia
+
+- Review of the Proposed Minimum Parking Requirements for New Multifamily Housing Developments
+
+- Recommendation of Philadelphia City Cycle Strategy
+
+- Recommendation of Purchasing Cars Subsidy Policy for Low-income Households
 
 
 ------------------------------------------------------------------------
