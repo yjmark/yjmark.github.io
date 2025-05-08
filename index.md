@@ -1,5 +1,3 @@
-# Youngsang's Portfolio
-
 ## <a id="Defense" style="scroll-margin-top: 80px;"></a>Geospatial Information in Defense
 
 The application of geospatial information is crucial not only in the intelligence field but also in the non-intelligence military domain. The first example demonstrates how remote sensing is utilized in military-related urban planning, employing machine learning through Python. Additionally, the following three examples show where geospatial information can be applied in the military sector, utilizing JavaScript with public data.
@@ -77,7 +75,7 @@ To solve the question on the subject, a Transit Oriented Development (TOD) analy
 
 ------------------------------------------------------------------------
 
-### Geospatial Risk Prediction
+### Geospatial Risk Prediction based on Broken Windows Theory
 
 November 12, 2024<br>
 Instructor: [Prof. Fichman, Michael](http://michael-fichman.com/)
@@ -86,7 +84,7 @@ We can use geospatial analysis for prediction as well. This memo applies aspects
 
 ------------------------------------------------------------------------
 
-### Targeting A Housing Subsidy
+### Who Should Receive a Housing Subsidy?
 
 November 1, 2024<br>
 Instructor: [Prof. Fichman, Michael](http://michael-fichman.com/)
@@ -95,22 +93,22 @@ Emil City has conducted marketing campaigns targeting homeowners who qualify for
 
 ------------------------------------------------------------------------
 
-### Recidivism Memo
+### Is the ex-offender job training program really helpful in reducing recidivism?
 
 November 15, 2024<br>
 Instructor: [Prof. Fichman, Michael](http://michael-fichman.com/)
 
-<i>"A rehabilitated prisoner is not one who learns to survive well in prison but one who succeeds in the world outside prison on release."</i> Emil City has operated an ex-offender job training program based on this principle. However, recent austerity measures have limited the budget, and some officials have raised concerns about expanding the City’s limited job training resources on ex-offenders who recidivate shortly after their release is not good policy. There have also been ongoing concerns about the fairness of predicting recidivism rates across races. To improve the program’s efficiency, a new recidivism risk prediction algorithm should be considered. This recommendation outlines an improvement plan based on logistic regression and a cost-benefit analysis of recidivism risk predictions using the data of 7,214 inmates over 2013–2014. This example is drawn from [Steif (2021),<i> Public Policy Analytics</i>](https://urbanspatial.github.io/PublicPolicyAnalytics/index.html).<br><br>Click [here](https://yjmark.github.io/PPA_HW5/Jun_YoungsangHW5.html) to see the full technical memo. <br><img src="images/hw5.png?raw=true"/>
+<i>"A rehabilitated prisoner is not one who learns to survive well in prison but one who succeeds in the world outside prison on release."</i> Emil City has operated an ex-offender job training program based on this principle. However, let's assume that recent austerity measures have limited the budget, and some officials have raised concerns about expanding the City’s limited job training resources on ex-offenders who recidivate shortly after their release is not good policy. There have also been ongoing concerns about the fairness of predicting recidivism rates across races. To improve the program’s efficiency, a new recidivism risk prediction algorithm should be considered. This recommendation outlines an improvement plan based on logistic regression and a cost-benefit analysis of recidivism risk predictions using the data of 7,214 inmates over 2013–2014. This example is drawn from [Steif (2021),<i> Public Policy Analytics</i>](https://urbanspatial.github.io/PublicPolicyAnalytics/index.html).<br><br>Click [here](https://yjmark.github.io/PPA_HW5/Jun_YoungsangHW5.html) to see the full technical memo. <br><img src="images/hw5.png?raw=true"/>
 
 ------------------------------------------------------------------------
 
-### Suggestion for Home Price Prediction Modeling in Philadelphia
+### Suggestion for Home Price Prediction Model in Philadelphia
 
 November 12, 2024<br>
 Worked with Agarwal, Vrinda<br>
 Instructor: [Prof. Fichman, Michael](http://michael-fichman.com/)
 
-Zillow has struggled to accurately estimate home prices, partly because it is a national platform that often lacks detailed, localized information. Urban dynamics have become increasingly complex, and understanding housing markets requires a more granular approach that incorporates local factors like government policies, crime, gentrification, pollution levels, and access to public transit. Our objective is to use local data to create a model that predicts Philadelphia home prices with greater accuracy. By incorporating data on crime, zoning, pollution, and transit-oriented development, we aim to build a more contextually rich model that reflects the true dynamics of the city. This example is drawn from [Steif (2021),<i> Public Policy Analytics</i>](https://urbanspatial.github.io/PublicPolicyAnalytics/index.html).<br><br>Click [here](https://yjmark.github.io/Midterm_Agarwal_Jun/Midterm_Agarwal_Jun_FInal_predict_resubmit.html) to see the technical memo. <br><img src="images/houseprice1.png?raw=true"/> <br><img src="images/houseprice2.png?raw=true"/> <br><img src="images/houseprice3.png?raw=true"/>
+Let's assume Zillow has struggled to accurately estimate home prices, partly because it is a national platform that often lacks detailed, localized information. Urban dynamics have become increasingly complex, and understanding housing markets requires a more granular approach that incorporates local factors like government policies, crime, gentrification, pollution levels, and access to public transit. Our objective is to use local data to create a model that predicts Philadelphia home prices with greater accuracy. By incorporating data on crime, zoning, pollution, and transit-oriented development, we aim to build a more contextually rich model that reflects the true dynamics of the city. This example is drawn from [Steif (2021),<i> Public Policy Analytics</i>](https://urbanspatial.github.io/PublicPolicyAnalytics/index.html).<br><br>Click [here](https://yjmark.github.io/Midterm_Agarwal_Jun/Midterm_Agarwal_Jun_FInal_predict_resubmit.html) to see the technical memo. <br><img src="images/houseprice1.png?raw=true"/> <br><img src="images/houseprice2.png?raw=true"/> <br><img src="images/houseprice3.png?raw=true"/>
 
 ------------------------------------------------------------------------
 
@@ -120,7 +118,7 @@ December 13, 2024<br>
 Worked with Tutut, Indriaty<br>
 Instructor: [Prof. Fichman, Michael](http://michael-fichman.com/)
 
-Nationale Maatschappij der Belgische Spoorwegen (NMBS), or Société nationale des chemins de fer belges (SNCB) is the National Railway Company of Belgium and the largest railway operator in the country. The company needs to postpone its expansion due to a shortage of train personnel. Additionally, rising energy costs have increased operating expenses. Meanwhile, the company continues to face revenue losses due to low passenger numbers on some routes. Given these challenges, the company must develop a strategy to optimize resource allocation, improve operational efficiency, and increase revenue, particularly on low-occupancy routes. This project aims to provide transportation planners at NMBS with a model called Re-train, which is to predict train occupancy levels for different Origin-Destination (OD) pairs in the Belgian railway system by logistic regression.<br><br>Click [here](https://yjmark.github.io/Final_Indriaty_Jun/Final_Indriaty_Jun.html) to see the technical memo. <br><img src="images/occupancy1.png?raw=true"/> <br><img src="images/occupancy2.png?raw=true"/> <br><img src="images/occupancy3.png?raw=true"/>
+Nationale Maatschappij der Belgische Spoorwegen (NMBS), or Société nationale des chemins de fer belges (SNCB) is the National Railway Company of Belgium and the largest railway operator in the country. Let's assume that the company needs to postpone its expansion due to a shortage of train personnel. Additionally, rising energy costs have increased operating expenses. Meanwhile, the company continues to face revenue losses due to low passenger numbers on some routes. Given these challenges, the company must develop a strategy to optimize resource allocation, improve operational efficiency, and increase revenue, particularly on low-occupancy routes. This project aims to provide transportation planners at NMBS with a model called Re-train, which is to predict train occupancy levels for different Origin-Destination (OD) pairs in the Belgian railway system by logistic regression.<br><br>Click [here](https://yjmark.github.io/Final_Indriaty_Jun/Final_Indriaty_Jun.html) to see the technical memo. <br><img src="images/occupancy1.png?raw=true"/> <br><img src="images/occupancy2.png?raw=true"/> <br><img src="images/occupancy3.png?raw=true"/>
 
 ------------------------------------------------------------------------
 
@@ -142,7 +140,7 @@ Instructor: [Prof. Delmelle, Elizabeth](https://scholar.google.com/citations?use
 
 [The 30 Day Map Challenge](https://30daymapchallenge.com/) is <i>daily social mapping project happening every November</i>. In November 2024, I participated in this challenge on Day 1 (Points), Day 5 (Journey), Day 10 (Pen and Paper), Day 12 (Time and Space), Day 14 (A World Map), Day 16 (Choropleth), Day 20 (Openstreetmap), Day 22 (Two Colors), Day 24 (Only Circular), and Day 25 (Heat) to enhance my communication skills using geospatial data that is both accessible and reproducible.
 
-[Day 1 Points: Savannah City Power Street Lights Map](https://github.com/yjmark/30DayMapChallenge_2024_Jun/blob/main/Day01_PointsofStreetLights/) <br>The map denotes 19,024 street lights' location in the City of Savannah which Georgia Power owned. <br><img src="https://raw.githubusercontent.com/yjmark/30DayMapChallenge_2024_Jun/main/Day01_PointsofStreetLights/01-youngsang-jun.png?raw=true"/>
+[Day 1 Points: Night of Savannah](https://github.com/yjmark/30DayMapChallenge_2024_Jun/blob/main/Day01_PointsofStreetLights/) <br>The map denotes 19,024 street lights' location in the City of Savannah which Georgia Power owned. <br><img src="https://raw.githubusercontent.com/yjmark/30DayMapChallenge_2024_Jun/main/Day01_PointsofStreetLights/01-youngsang-jun.png?raw=true"/>
 
 ------------------------------------------------------------------------
 
@@ -184,10 +182,27 @@ Instructor: [Prof. Delmelle, Elizabeth](https://scholar.google.com/citations?use
 
 ## <span id="transport">Transportation Memorandum Writing Sample</span>
 
--   Advanced Transportation Seminar (focused on Aerial Planning) <i>will be open in Spring 2025</i>
--   [Multimodal Transport HW1_London_Jun_Youngsang.docx](pdf/HW1_London_Jun_Youngsang.docx)
--   [Multimodal Transport HW2_CAHSR_Jun_Youngsang.pdf](pdf/HW2_CAHSR_Jun_Youngsang.pdf)
--   [Introduction of the Transportation Planning](pdf/Final_Jun.pdf)
+### Advanced Transportation Seminar (focused on Aerial Planning) 
+
+<i>will be open in Spring 2025</i>
+
+### [(Multimodal Transport) Recommendation of Congestion Charging in Western Zone in London](pdf/HW1_London_Jun_Youngsang.docx)
+
+February 14, 2025<br>
+Instructor: Guerra, Erick
+
+This memorandum recommends a careful approach to extending westward congestion charging from Central London, considering the following: First, given the high proportion of residents in western zone, explore ways to integrate the congestion charging policy with existing systems so that it does not feel like an additional regulatory burden to people. Second, introduce a two-zone system to effectively reduce traffic volume, but establish clear criteria to avoid confusion. Third, central and western zones have different key industries, which should be considered when implementing congestion charging.
+
+### [(Multimodal Transport) Recommendations for Improving California High-speed Rail Project](pdf/HW2_CAHSR_Jun_Youngsang.pdf)
+
+April 8, 2025<br>
+Instructor: Guerra, Erick
+
+This memorandum recommends alternatives for three persistent challenges facing the California High-Speed Rail (CAHSR) project. First, to address delays in rights-of-way acquisition, particularly interfering with public utilities, the Authority is recommended to strengthen cooperation with relevant agencies and pursue legislative solutions to expedite processes. Second, to build public trust, the Authority should conduct a transparent route decision process, including public hearings and sharing international case studies. Lastly, to induce long-term ridership, the Authority is recommended to integrate seamlessly with local transit systems through coordinated fare structures, including partnerships with ride-share and micromobility companies to enhance first- and last-mile connectivity.
+
+### [Introduction of the Transportation Planning](pdf/Final_Jun.pdf)
+
+
 
 ------------------------------------------------------------------------
 
