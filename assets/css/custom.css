@@ -12,7 +12,7 @@ html {
   left: 0;
   width: 100%;
   background: linear-gradient(
-    to bottom,
+    to right,
     rgba(0, 55, 100, 0.85),
     rgba(127, 101, 253, 0.85)
     );
@@ -98,4 +98,13 @@ a:hover {
   color: rgb(127, 101, 253); 
   text-decoration: underline;
   font-weight: normal;
+}
+
+h1 a:hover,
+h2 a:hover,
+h3 a:hover,
+h4 a:hover,
+h5 a:hover,
+h6 a:hover {
+  font-weight: bold;
 }
