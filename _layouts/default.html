@@ -58,6 +58,15 @@
   function toggleMenu() {
     const nav = document.getElementById("navLinks");
     nav.classList.toggle("show");
+    // 메뉴 클릭 시 자동 닫힘
+document.addEventListener("DOMContentLoaded", () => {
+  const links = document.querySelectorAll("#navLinks a");
+  links.forEach(link => {
+    link.addEventListener("click", () => {
+      document.getElementById("navLinks").classList.remove("show");
+    });
+  });
+});
   }
 </script>
 </body>
