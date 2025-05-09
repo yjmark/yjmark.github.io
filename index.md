@@ -126,21 +126,19 @@ Nationale Maatschappij der Belgische Spoorwegen (NMBS), or Société nationale d
 
 ------------------------------------------------------------------------
 
-### (Thesis) A Study on the Factors of Occurrence of Time Difference of Experience for a Transferred Policy: focusing on Address Policy in Republic of Korea 🇰🇷
+### (Thesis) A Study on the Factors of Occurrence of Time Difference of Experience for a Transferred Policy: focusing on Address Policy in Republic of Korea
 
 February, 2025<br>
 Thesis advisor: Prof. Choi, Taehyon (Graduate School of Public Administration, Seoul National University)
 
 It has been 7 years since Korea's full implementation of the Road Name Address. However, why do so many citizens still prefer land-lot addresses or the names of facilities such as buildings and apartments in situations where one needs to search for or describe a certain location? To find the answer to this question, this study reviews the introduction process of the address policy in Korea as an 'incomplete policy transfer', presented by Dolowitz and Marsh (2000), and describes the factors that cause the time difference of policy experience, a concept proposed by Kim (2015), in address policy. First, this study analyzed the results of Seoul Metropolitan Government's survey on the public opinion on Road Name Address conducted between 2017 and 2019. Study on the results confirmed that there was an time difference of policy experience in the location and identification function of the Road Name Address. Next, through process tracing methods such as literature research, interviews, and spatial analysis, the creation of the address usage environment has been analyzed over time in two parts: an offline environment such as road name signs for pedestrians and drivers, and an online environment such as mobile maps and navigation. Results show that, the construction of the offline address usage environment was being delayed due to the differences in perception between central and local governments. And online address usage environment was being incompletely implemented due to differences in perception between the government and private sectors. Finally, this study suggests that in order to shorten the time difference of policy experience in address policy, the location and identification function of address should be clearly defined, and in particular, cooperation with the private sectors that implements the online address usage environment is important.
 
+Both my [full thesis in Korean](https://s-space.snu.ac.kr/handle/10371/176254) and [the summary in English](231119_Enhancing_the_User_Environment_of_Road Name_Address_in_ROK_v4.pdf) are available.<br>
 
-Click [here](https://s-space.snu.ac.kr/handle/10371/176254) to see the full thesis (in Korean). 
-
-Click [here](231119_Enhancing_the_User_Environment_of_Road Name_Address_in_ROK_v4.pdf) to see the summary of the thesis in English.<br>
 <img src="images/page_67_img_10.png?raw=true"/> <br>
-<i>Figure. Thematic map of nationwide road name statistics by cities, counties, and districts (local authorities). Reds represent the acceptance of the base number naming method, while greens indicate the acceptance of the serial number naming method. Local authorities with high chroma represent a low proportion of proper noun naming and a high proportion of number naming. Data Source: Road name database as of April 30, 2020 from [ROK MOIS (2021)](www.juso.go.kr).</i><br><br>
+<i>Figure. Thematic map of nationwide road name statistics by cities, counties, and districts (local authorities). Reds represent the acceptance of the base number naming method, while greens indicate the acceptance of the serial number naming method. Local authorities with high chroma represent a low proportion of proper noun naming and a high proportion of number naming. Data Source: Road name database as of April 30, 2020 from [ROK MOIS (2021)](https://www.juso.go.kr).</i><br><br>
 <img src="images/page_91_img_10.png?raw=true"/><br>
-</i>Figure. Thematic map of the ratio of the number of road name plates installed to the minimum required number of road name plates by city, county, and district by year of 2013, 2016, and 2019. Data Source: Database for Road Name Address Facilities provided by ROK MOIS (2021)</i>
+<i>Figure. Thematic map of the ratio of the number of road name plates installed to the minimum required number of road name plates by city, county, and district by year of 2013, 2016, and 2019. Data Source: Database for Road Name Address Facilities provided by ROK MOIS (2021)</i>
 
 ------------------------------------------------------------------------
 
