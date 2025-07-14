@@ -1,5 +1,5 @@
 ---
-title: Geospatial Information in Defense, Public Policy, Communication, and Transportation
+title: Geospatial Information in Defense and Public Policy
 ---
 
 ## Geospatial Information in Defense
@@ -209,21 +209,21 @@ Instructor: [Prof. Delmelle, Elizabeth](https://scholar.google.com/citations?use
 ### [(Multimodal Transport) Recommendation of Congestion Charging in Western Zone in London](pdf/HW1_London_Jun_Youngsang.docx)
 
 February 14, 2025<br>
-Instructor: Guerra, Erick
+Instructor: Prof. Guerra, Erick
 
 This memorandum recommends a careful approach to extending westward congestion charging from Central London, considering the following: First, given the high proportion of residents in western zone, explore ways to integrate the congestion charging policy with existing systems so that it does not feel like an additional regulatory burden to people. Second, introduce a two-zone system to effectively reduce traffic volume, but establish clear criteria to avoid confusion. Third, central and western zones have different key industries, which should be considered when implementing congestion charging.
 
 ### [(Multimodal Transport) Recommendations for Improving California High-speed Rail Project](pdf/HW2_CAHSR_Jun_Youngsang.pdf)
 
 April 8, 2025<br>
-Instructor: Guerra, Erick
+Instructor: Prof. Guerra, Erick
 
 This memorandum recommends alternatives for three persistent challenges facing the California High-Speed Rail (CAHSR) project. First, to address delays in rights-of-way acquisition, particularly interfering with public utilities, the Authority is recommended to strengthen cooperation with relevant agencies and pursue legislative solutions to expedite processes. Second, to build public trust, the Authority should conduct a transparent route decision process, including public hearings and sharing international case studies. Lastly, to induce long-term ridership, the Authority is recommended to integrate seamlessly with local transit systems through coordinated fare structures, including partnerships with ride-share and micromobility companies to enhance first- and last-mile connectivity.
 
 ### [(Introduction of the Transportation Planning) Four Memorandum of Transportation Planning in U.S.](pdf/Final_Jun.pdf)
 
 December 12, 2024<br>
-Instructor: Guerra, Erick
+Instructor: Prof. Guerra, Erick
 
 - Recommendation of Transit-Oriented Development Plan for the City of Philadelphia
 
