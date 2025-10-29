@@ -12,7 +12,7 @@ The application of geospatial information is crucial not only in the intelligenc
 
 April 24, 2025<br>
 Instructor: [Dr. Erus, Guray](https://github.com/gurayerus)<br>
-Teaching assistant: [Lebovits, Nissim](https://nlebovits.github.io/)
+Teaching assistant: [Mr. Lebovits, Nissim](https://nlebovits.github.io/)
 
 This assignment aims to create a complete classification of all military installations categories in North Korea (nK) based on Sentinel-2 Multispectral imagery, Visible Infrared Imaging Radiometer Suite (VIRRS) imagery, and OpenStreetMap (OSM) annotations. To achieve this, Random Forest (RF) algorithm was firstly applied using Python with 3 image values including NDVI, BSI, and NTL, along with longitude and latitude, the area of each polygon, and country from OSM polygons as independent variables. This approach achieved a classification accuracy of 67%. Second, Clay's model, which is able to utilize more pre-computed EO embeddings, was applied alongside the first RF model, and but failed to sampling and patching.<br><br>Click [here](https://github.com/yjmark/Remote-sensing/blob/main/assignments/Final_Jun_Youngsang/Final_Jun_Youngsang_clay.ipynb) to see the full technical memo.<br><br><img src="images/rs1.png?raw=true"/><img src="images/rs2.png?raw=true"/>
 
@@ -21,7 +21,7 @@ This assignment aims to create a complete classification of all military install
 ### The Storymap of Major U.S. Military Facilities
 
 September 25, 2024<br>
-Instructor: [Poe, Mjumbe](https://about.mjumbepoe.com/)
+Instructor: [Mr. Poe, Mjumbe](https://about.mjumbepoe.com/)
 
 This storymap aims to provide a brief history of the U.S. military and an overview of major military bases for those who may work for/with U.S. Forces regarding U.S. military facilities in the future. The storymap introduces five major military facilities in the U.S.: West Point, Eglin Air Force Base, Naval Station Norfolk, Camp Pendleton, and Peterson Space Force Base. <br><br>Click [here](https://yjmark.github.io/story-map-project/Jun_Youngsang/) to see the live version of the storymap.
 
@@ -32,7 +32,7 @@ This storymap aims to provide a brief history of the U.S. military and an overvi
 ### DefenseBoard
 
 October 26, 2024<br>
-Instructor: [Poe, Mjumbe](https://about.mjumbepoe.com/)
+Instructor: [Mr. Poe, Mjumbe](https://about.mjumbepoe.com/)
 
 The DefenseBoard is a dashboard that uses spatial data to link various types of attributes in the defense sector such as military personnel, facilities, budget, logistics, etc. The map on the right displays publicly accessible base locations across the United States, while on the left, users can view attribute data by base, military unit, or region. <br><br>Click [here](https://yjmark.github.io/dashboard-project/Jun_Youngsang/) to see the live version of the DefenseBoard.
 
@@ -43,7 +43,7 @@ The DefenseBoard is a dashboard that uses spatial data to link various types of 
 ### Base Management System
 
 December 18, 2024<br>
-Instructor: [Poe, Mjumbe](https://about.mjumbepoe.com/)
+Instructor: [Mr. Poe, Mjumbe](https://about.mjumbepoe.com/)
 
 The Base Management System is a system for manage all kinds of events in a military base, such as training, exercise, sports, construction projects etc. This user-engagement project uses the Norfolk Naval Base in Virginia as an example. Therefore, the expected primary users of this system are the personnel stationed at the Norfolk Naval Base. The system will share schedules and locations of activities with relevant personnel within the base by utilizing Google Firebase. <br><br>Click [here](https://yjmark.github.io/engagement-project/Jun_Youngsang/) to see the live version of the Base Management System.
 
