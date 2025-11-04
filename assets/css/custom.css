@@ -172,3 +172,20 @@ span.consent-asking {
     color: rgb(127, 101, 253); /* 호버 시 흰색 글자 */
     border-color: rgb(127, 101, 253); /* 호버 시 흰색 테두리 */
 }
+
+#google_translate_element {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 9999;
+}
+.goog-te-gadget {
+    font-size: 16px; /* 폰트 크기 조정 */
+}
+/* Google 로고 및 배너 숨기기 (선택 사항, 사용자 경험에 따라 다름) */
+.goog-logo-link {
+    display: none !important;
+}
+.goog-te-banner-frame {
+    display: none !important;
+}
