@@ -153,31 +153,54 @@ function adjustContentForTranslateBar() {
     // 1. 구글 번역 바의 요소 ID를 찾습니다. (고정된 ID)
     const translateBar = document.querySelector('.goog-te-banner-frame');
     
-    // 2. 바가 화면에 로드되었는지 확인합니다.
+    // 네비게이션 요소들을 찾습니다.
+    const navbar = document.querySelector('nav.navbar');
+    const navToggle = document.querySelector('.nav-toggle');
+    const bodyElement = document.getElementById('my-body') || document.body;
+    
+    // 번역 바가 화면에 로드되었는지 확인합니다.
     if (translateBar) {
-        // iframe의 높이를 가져옵니다. (보통 약 40px)
-        const barHeight = translateBar.clientHeight; 
+        // 번역 바가 로드된 후 0.5초 대기 (안정적인 높이 측정을 위해)
+        setTimeout(() => {
+             const barHeight = translateBar.clientHeight; 
+             const barHeightPx = barHeight + 'px';
+
+             // 1. Body 콘텐츠를 바 높이만큼 밀어냅니다.
+             if (bodyElement) {
+                 bodyElement.style.marginTop = barHeightPx;
+             }
+             
+             // 2. Navbar의 top 위치를 바 높이만큼 내립니다.
+             if (navbar) {
+                 navbar.style.top = barHeightPx;
+             }
+             
+             // 3. 햄버거 버튼의 top 위치를 바 높이만큼 내립니다.
+             if (navToggle) {
+                 navToggle.style.top = barHeightPx;
+             }
+        }, 500); 
         
-        // 3. <body> 요소에 margin-top을 적용하여 콘텐츠를 밀어냅니다.
-        const bodyElement = document.getElementById('my-body') || document.body;
-        
-        if (bodyElement) {
-            // translateElementInit이 실행된 후 약간의 딜레이를 주어
-            // 번역 바가 완전히 로드되도록 합니다.
-            setTimeout(() => {
-                 // body에 마진을 추가하여 콘텐츠를 아래로 밀어냅니다.
-                 bodyElement.style.marginTop = barHeight + 'px';
-            }, 500); // 0.5초 대기
-        }
     } else {
-        // 번역 바가 없을 때는 마진을 0으로 설정합니다. (선택적)
-        const bodyElement = document.getElementById('my-body') || document.body;
+        // ❌ 번역 바가 없을 때 (원래대로 되돌리기)
+        
+        // 1. Body 마진을 0으로 되돌립니다.
         if (bodyElement) {
             bodyElement.style.marginTop = '0';
         }
+        
+        // 2. Navbar의 top 위치를 0px (원래 위치)로 되돌립니다.
+        if (navbar) {
+            navbar.style.top = '0';
+        }
+
+        // 3. 햄버거 버튼의 top 위치를 0px로 되돌립니다.
+        if (navToggle) {
+            navToggle.style.top = '0';
+        }
 
         // 바가 로드되지 않았다면 1초 후 다시 시도합니다. (로딩 지연 대비)
-        setTimeout(adjustContentForTranslateBar, 1000);
+        setTimeout(adjustLayoutForTranslateBar, 1000);
     }
 }
 // 페이지 로드 후에도 한 번 더 조정 시도 (위젯이 나중에 활성화될 수 있으므로)

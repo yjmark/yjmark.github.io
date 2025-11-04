@@ -188,4 +188,6 @@ span.consent-asking {
 }
 .goog-te-banner-frame {
     display: none !important;
+    z-index: 10000 !important;
+    top: 0 !important;
 }
