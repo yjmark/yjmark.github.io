@@ -137,74 +137,71 @@
     });
 </script>
 <script type="text/javascript">
+// 전역 변수: 로드 상태를 체크하는 인터벌 ID 저장
+let translateBarCheckInterval;
+
 function googleTranslateElementInit() {
-  new google.translate.TranslateElement(
-    {
-      pageLanguage: 'en', // 웹사이트의 기본 언어를 지정합니다 (예: 한국어)
-      includedLanguages: 'ko,zh-CN,hi,es,ar,fr,ru,pt,id', // 번역 옵션에 표시할 특정 언어들을 지정할 수도 있습니다.
-      layout: google.translate.TranslateElement.InlineLayout.SIMPLE // 버튼의 디자인을 간단하게 설정합니다.
-    }, 
-    'google_translate_element' // 위젯이 삽입될 HTML 요소의 ID
-  );
-  // 💡 번역 바 로드 후 콘텐츠 조정 함수 호출
-    adjustContentForTranslateBar();
+    new google.translate.TranslateElement(
+        {
+            pageLanguage: 'en', 
+            includedLanguages: 'ko,zh-CN,hi,es,ar,fr,ru,pt,id', 
+            layout: google.translate.TranslateElement.InlineLayout.SIMPLE 
+        }, 
+        'google_translate_element' 
+    );
+
+    // 💡 초기화 직후, 번역 바 로딩을 확인하는 인터벌 시작
+    // 500ms(0.5초)마다 adjustLayoutForTranslateBar 함수를 호출하여 번역 바를 감지합니다.
+    translateBarCheckInterval = setInterval(adjustLayoutForTranslateBar, 500);
 }
-function adjustContentForTranslateBar() {
-    // 1. 구글 번역 바의 요소 ID를 찾습니다. (고정된 ID)
+
+function adjustLayoutForTranslateBar() {
     const translateBar = document.querySelector('.goog-te-banner-frame');
-    
-    // 네비게이션 요소들을 찾습니다.
     const navbar = document.querySelector('.navbar');
     const navToggle = document.querySelector('.nav-toggle');
     const bodyElement = document.getElementById('my-body') || document.body;
-    
-    // 번역 바가 화면에 로드되었는지 확인합니다.
+
     if (translateBar) {
-        // 번역 바가 로드된 후 0.5초 대기 (안정적인 높이 측정을 위해)
-        setTimeout(() => {
-             const barHeight = translateBar.clientHeight; 
-             const barHeightPx = barHeight + 'px';
+        // ✅ 번역 바를 찾았을 때:
+        
+        // 1. 반복 확인 인터벌을 멈춥니다.
+        clearInterval(translateBarCheckInterval); 
 
-             // 1. Body 콘텐츠를 바 높이만큼 밀어냅니다.
-             if (bodyElement) {
-                 bodyElement.style.marginTop = barHeightPx;
-             }
-             
-             // 2. Navbar의 top 위치를 바 높이만큼 내립니다.
-             if (navbar) {
-                 navbar.style.top = barHeightPx;
-             }
-             
-             // 3. 햄버거 버튼의 top 위치를 바 높이만큼 내립니다.
-             if (navToggle) {
-                 navToggle.style.top = barHeightPx;
-             }
-        }, 500); 
-        
-    } else {
-        // ❌ 번역 바가 없을 때 (원래대로 되돌리기)
-        
-        // 1. Body 마진을 0으로 되돌립니다.
+        // 2. 딜레이 없이 즉시 조정합니다. (init 후 500ms 간격으로 호출되었으므로 바로 조정해도 무방)
+        const barHeight = translateBar.clientHeight; 
+        const barHeightPx = barHeight + 'px';
+
         if (bodyElement) {
-            bodyElement.style.marginTop = '0';
+            bodyElement.style.marginTop = barHeightPx;
         }
         
-        // 2. Navbar의 top 위치를 0px (원래 위치)로 되돌립니다.
+        // Navbar는 fixed 되어있다는 전제 하에 조정
         if (navbar) {
-            navbar.style.top = '0';
+            navbar.style.top = barHeightPx;
         }
-
-        // 3. 햄버거 버튼의 top 위치를 0px로 되돌립니다.
+        
         if (navToggle) {
-            navToggle.style.top = '0';
+            navToggle.style.top = barHeightPx;
         }
 
-        // 바가 로드되지 않았다면 1초 후 다시 시도합니다. (로딩 지연 대비)
-        setTimeout(adjustLayoutForTranslateBar, 1000);
+    } else {
+        // ❌ 번역 바를 찾지 못했을 때 (혹은 제거되었을 때):
+        
+        // 만약 번역 바가 제거되었는데 Navbar가 아직 밀려있는 경우를 대비하여
+        // 이 곳에서는 상태 변경을 하지 않고, 초기화 시점에서만 로직을 실행하는 것이 깔끔합니다.
+        
+        // [선택 사항] 번역이 시작되지 않은 초기 상태라면 top: 0을 유지 (이미 CSS에서 처리할 확률 높음)
+        if (bodyElement && bodyElement.style.marginTop !== '0px') {
+             bodyElement.style.marginTop = '0';
+        }
+        if (navbar && navbar.style.top !== '0px') {
+             navbar.style.top = '0';
+        }
+        if (navToggle && navToggle.style.top !== '0px') {
+             navToggle.style.top = '0';
+        }
     }
 }
-// 페이지 로드 후에도 한 번 더 조정 시도 (위젯이 나중에 활성화될 수 있으므로)
-window.addEventListener('load', adjustContentForTranslateBar);
 </script>
 <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
