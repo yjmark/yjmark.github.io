@@ -10,7 +10,9 @@ html {
   scroll-behavior: smooth;
 }
 
-
+header {
+  width: 320px;
+}
 
 .navbar {
   position: fixed;
