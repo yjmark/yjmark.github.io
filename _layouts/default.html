@@ -176,37 +176,42 @@ function adjustLayoutForTranslateBar(isObserverCall = false) {
     const navbar = document.querySelector('.navbar');
     const navToggle = document.querySelector('.nav-toggle');
     const bodyElement = document.getElementById('my-body') || document.body;
-
-    // 번역 바 높이 (없으면 0)
-    const barHeight = translateBar ? translateBar.clientHeight : 0;
-    const barHeightPx = barHeight + 'px';
-    
+// ----------------------------------------------------
+    // 1. 상태 조정 로직
+    // ----------------------------------------------------
     if (translateBar) {
-        // ✅ 번역 바를 찾았을 때:
+        // ✅ 번역 바를 찾았을 때 (활성화 상태):
         
         // 최초 로드 감지 인터벌을 멈춥니다.
         if (!isObserverCall) {
             clearInterval(translateBarCheckInterval);
         }
 
-        // Navbar와 body를 바 높이만큼 조정
+        const barHeight = translateBar.clientHeight; 
+        const barHeightPx = barHeight + 'px';
+
+        // 2. Navbar와 body를 바 높이만큼 조정 (top=40 상태)
         if (bodyElement) bodyElement.style.marginTop = barHeightPx;
         if (navbar) navbar.style.top = barHeightPx;
         if (navToggle) navToggle.style.top = barHeightPx;
 
-    } else {
-        // ❌ 번역 바가 없을 때 (꺼졌을 때):
+    } else if (isObserverCall) {
+        // ❌ 옵저버에 의해 호출되었고, translateBar가 없을 때 (비활성화 상태):
         
-        // 인터벌이 아직 작동 중이라면 (최초 로드 전), 복구 로직을 실행하지 않고 대기합니다.
-        if (!isObserverCall && translateBarCheckInterval) {
-            return;
-        }
-
-        // 0. top: 0 으로 복구
+        // 이 블록은 번역 바가 "제거되었음"을 의미하므로, top: 0 으로 복구합니다.
+        
+        // 1. top: 0 으로 복구
         if (bodyElement) bodyElement.style.marginTop = '0';
         if (navbar) navbar.style.top = '0';
         if (navToggle) navToggle.style.top = '0';
+
+        // 2. 인터벌이 멈춘 상태라면 다시 시작 (사용자가 다시 켤 경우를 대비)
+        if (!translateBarCheckInterval) {
+            translateBarCheckInterval = setInterval(adjustLayoutForTranslateBar, 500);
+        }
     }
+    // ⚠️ else (번역 바가 없고, 옵저버가 호출하지 않은 상태)
+    // 이 경우는 초기 로딩 상태이므로, 아무것도 하지 않고 CSS 기본값(top: 0)에 의존합니다.
 }
 </script>
 <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
