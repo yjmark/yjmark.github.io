@@ -153,53 +153,59 @@ function googleTranslateElementInit() {
     // 💡 초기화 직후, 번역 바 로딩을 확인하는 인터벌 시작
     // 500ms(0.5초)마다 adjustLayoutForTranslateBar 함수를 호출하여 번역 바를 감지합니다.
     translateBarCheckInterval = setInterval(adjustLayoutForTranslateBar, 500);
+    // 2. 번역 바의 상태 변화(추가/제거)를 영구적으로 감지하는 옵저버 설정
+    setupTranslationObserver();
 }
 
-function adjustLayoutForTranslateBar() {
+function setupTranslationObserver() {
+    const bodyElement = document.getElementById('my-body') || document.body;
+    // MutationObserver를 사용하여 body 요소의 자식 변화(번역 바 iframe의 추가/제거)를 감지합니다.
+    const observer = new MutationObserver((mutationsList, observer) => {
+        // 변화가 감지되면 레이아웃을 즉시 조정합니다.
+        // true 플래그는 옵저버에 의해 호출되었음을 나타냅니다.
+        adjustLayoutForTranslateBar(true); 
+    });
+
+    // body 요소의 자식 목록 추가/제거만 관찰합니다.
+    observer.observe(bodyElement, { childList: true });
+}
+
+// isObserverCall: 옵저버에 의해 호출되었는지 확인하는 플래그 (기본값: false)
+function adjustLayoutForTranslateBar(isObserverCall = false) {
     const translateBar = document.querySelector('.goog-te-banner-frame');
     const navbar = document.querySelector('.navbar');
     const navToggle = document.querySelector('.nav-toggle');
     const bodyElement = document.getElementById('my-body') || document.body;
 
+    // 번역 바 높이 (없으면 0)
+    const barHeight = translateBar ? translateBar.clientHeight : 0;
+    const barHeightPx = barHeight + 'px';
+    
     if (translateBar) {
         // ✅ 번역 바를 찾았을 때:
         
-        // 1. 반복 확인 인터벌을 멈춥니다.
-        clearInterval(translateBarCheckInterval); 
+        // 최초 로드 감지 인터벌을 멈춥니다.
+        if (!isObserverCall) {
+            clearInterval(translateBarCheckInterval);
+        }
 
-        // 2. 딜레이 없이 즉시 조정합니다. (init 후 500ms 간격으로 호출되었으므로 바로 조정해도 무방)
-        const barHeight = translateBar.clientHeight; 
-        const barHeightPx = barHeight + 'px';
-
-        if (bodyElement) {
-            bodyElement.style.marginTop = barHeightPx;
-        }
-        
-        // Navbar는 fixed 되어있다는 전제 하에 조정
-        if (navbar) {
-            navbar.style.top = barHeightPx;
-        }
-        
-        if (navToggle) {
-            navToggle.style.top = barHeightPx;
-        }
+        // Navbar와 body를 바 높이만큼 조정
+        if (bodyElement) bodyElement.style.marginTop = barHeightPx;
+        if (navbar) navbar.style.top = barHeightPx;
+        if (navToggle) navToggle.style.top = barHeightPx;
 
     } else {
-        // ❌ 번역 바를 찾지 못했을 때 (혹은 제거되었을 때):
+        // ❌ 번역 바가 없을 때 (꺼졌을 때):
         
-        // 만약 번역 바가 제거되었는데 Navbar가 아직 밀려있는 경우를 대비하여
-        // 이 곳에서는 상태 변경을 하지 않고, 초기화 시점에서만 로직을 실행하는 것이 깔끔합니다.
-        
-        // [선택 사항] 번역이 시작되지 않은 초기 상태라면 top: 0을 유지 (이미 CSS에서 처리할 확률 높음)
-        if (bodyElement && bodyElement.style.marginTop !== '0px') {
-             bodyElement.style.marginTop = '0';
+        // 인터벌이 아직 작동 중이라면 (최초 로드 전), 복구 로직을 실행하지 않고 대기합니다.
+        if (!isObserverCall && translateBarCheckInterval) {
+            return;
         }
-        if (navbar && navbar.style.top !== '0px') {
-             navbar.style.top = '0';
-        }
-        if (navToggle && navToggle.style.top !== '0px') {
-             navToggle.style.top = '0';
-        }
+
+        // 0. top: 0 으로 복구
+        if (bodyElement) bodyElement.style.marginTop = '0';
+        if (navbar) navbar.style.top = '0';
+        if (navToggle) navToggle.style.top = '0';
     }
 }
 </script>
