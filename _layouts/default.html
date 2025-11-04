@@ -40,7 +40,7 @@
    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
    <![endif]-->
 </head>
-<body>
+<body id="my-body">
   {% include header.html %}
    <div class="wrapper">
       <header>
@@ -146,7 +146,42 @@ function googleTranslateElementInit() {
     }, 
     'google_translate_element' // 위젯이 삽입될 HTML 요소의 ID
   );
+  // 💡 번역 바 로드 후 콘텐츠 조정 함수 호출
+    adjustContentForTranslateBar();
 }
+function adjustContentForTranslateBar() {
+    // 1. 구글 번역 바의 요소 ID를 찾습니다. (고정된 ID)
+    const translateBar = document.querySelector('.goog-te-banner-frame');
+    
+    // 2. 바가 화면에 로드되었는지 확인합니다.
+    if (translateBar) {
+        // iframe의 높이를 가져옵니다. (보통 약 40px)
+        const barHeight = translateBar.clientHeight; 
+        
+        // 3. <body> 요소에 margin-top을 적용하여 콘텐츠를 밀어냅니다.
+        const bodyElement = document.getElementById('my-body') || document.body;
+        
+        if (bodyElement) {
+            // translateElementInit이 실행된 후 약간의 딜레이를 주어
+            // 번역 바가 완전히 로드되도록 합니다.
+            setTimeout(() => {
+                 // body에 마진을 추가하여 콘텐츠를 아래로 밀어냅니다.
+                 bodyElement.style.marginTop = barHeight + 'px';
+            }, 500); // 0.5초 대기
+        }
+    } else {
+        // 번역 바가 없을 때는 마진을 0으로 설정합니다. (선택적)
+        const bodyElement = document.getElementById('my-body') || document.body;
+        if (bodyElement) {
+            bodyElement.style.marginTop = '0';
+        }
+
+        // 바가 로드되지 않았다면 1초 후 다시 시도합니다. (로딩 지연 대비)
+        setTimeout(adjustContentForTranslateBar, 1000);
+    }
+}
+// 페이지 로드 후에도 한 번 더 조정 시도 (위젯이 나중에 활성화될 수 있으므로)
+window.addEventListener('load', adjustContentForTranslateBar);
 </script>
 <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
