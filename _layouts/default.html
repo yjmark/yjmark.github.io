@@ -141,7 +141,7 @@ function googleTranslateElementInit() {
   new google.translate.TranslateElement(
     {
       pageLanguage: 'en', // 웹사이트의 기본 언어를 지정합니다 (예: 한국어)
-      includedLanguages: 'ko,ja,zh-CN,fr,es,po', // 번역 옵션에 표시할 특정 언어들을 지정할 수도 있습니다.
+      includedLanguages: 'ko,zh-CN,hi,es,ar,fr,ru,pt,id', // 번역 옵션에 표시할 특정 언어들을 지정할 수도 있습니다.
       layout: google.translate.TranslateElement.InlineLayout.SIMPLE // 버튼의 디자인을 간단하게 설정합니다.
     }, 
     'google_translate_element' // 위젯이 삽입될 HTML 요소의 ID
@@ -154,7 +154,7 @@ function adjustContentForTranslateBar() {
     const translateBar = document.querySelector('.goog-te-banner-frame');
     
     // 네비게이션 요소들을 찾습니다.
-    const navbar = document.querySelector('nav.navbar');
+    const navbar = document.querySelector('.navbar');
     const navToggle = document.querySelector('.nav-toggle');
     const bodyElement = document.getElementById('my-body') || document.body;
     
