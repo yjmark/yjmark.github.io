@@ -20,7 +20,7 @@ section {
 }
 
 .wrapper {
-  width: max-width: 1194px;
+  max-width: 1194px;
 }
 
 .navbar {
