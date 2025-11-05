@@ -16,8 +16,8 @@ This assignment aims to create a complete classification of all military install
 
 Click [here](https://github.com/yjmark/Remote-sensing/blob/main/assignments/Final_Jun_Youngsang/Final_Jun_Youngsang.pptx) to see the final slide deck.
 
-<img src="images/rs1.png?raw=true"/><img src="images/rs2.png?raw=true"/>
-
+![This image shows ](images/rs1.png?raw=true)
+![This image shows ](images/rs2.png?raw=true)
 ------------------------------------------------------------------------
 
 ### The Storymap of Major U.S. Military Facilities
