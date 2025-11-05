@@ -2,15 +2,16 @@ function toggleMenu() {
     const nav = document.getElementById("navLinks");
     nav.classList.toggle("show");
     // Automatically close the menu when a link is clicked
-  }
-  document.addEventListener("DOMContentLoaded", () => {
+}
+
+document.addEventListener("DOMContentLoaded", () => {
     const links = document.querySelectorAll("#navLinks a");
     links.forEach(link => {
       link.addEventListener("click", () => {
         document.getElementById("navLinks").classList.remove("show");
       });
     });
-  });
+});
 
 function reopenConsentBanner() {
     const banner = document.getElementById('consent-banner-manual');
@@ -22,7 +23,7 @@ function reopenConsentBanner() {
     
     // 2. <a> 태그의 기본 동작(맨 위로 스크롤)을 막습니다.
     return false;
-    }
+}
     
 function updateGAConsent(status) {
         const consentState = status === 'granted' ? 'granted' : 'denied';
@@ -50,11 +51,8 @@ function updateGAConsent(status) {
         if (status === 'denied') {
             document.cookie = "_ga=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/";
         }
-    }
+}
 
-
-    
-    
     // When the page loaded, check the past allow/deny status and show the banner
 window.addEventListener('load', () => {
         const savedConsent = localStorage.getItem('cookie_consent');
@@ -69,7 +67,7 @@ window.addEventListener('load', () => {
                 banner.classList.add('show'); 
             }
         }
-    });
+});
 
 function googleTranslateElementInit() {
     new google.translate.TranslateElement(
