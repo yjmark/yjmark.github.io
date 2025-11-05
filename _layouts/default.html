@@ -168,38 +168,50 @@ function googleTranslateElementInit() {
     );
 
     // 💡 초기화 직후, 번역 바 로딩을 확인하는 인터벌 시작
-    // 500ms(0.5초)마다 adjustLayoutForTranslateBar 함수를 호출하여 번역 바를 감지합니다.
-    setTimeout(() => {
-        // 1초 후에 0.25초마다 감시를 시작합니다.
-        setInterval(adjustLayoutForTranslateBar, 500);
-    }, 1000);
+    setupHtmlStyleObserver();
 }
 
-// isObserverCall: 옵저버에 의해 호출되었는지 확인하는 플래그 (기본값: false)
-function adjustLayoutForTranslateBar() {
-    const bodyElement = document.body; 
+function setupHtmlStyleObserver() {
+    const htmlElement = document.documentElement; // <html> 태그
     const navbar = document.querySelector('.navbar');
-    let barHeight = 0;
-    let googleTopStyle = bodyElement.style.top;
-    // 1. Google 위젯이 <html> 태그에 'style.top'을 설정했는지 확인합니다.
-    if (googleTopStyle && googleTopStyle.endsWith('px')) {
-        // "40px" 같은 문자열에서 숫자 40을 추출합니다.
-        barHeight = parseInt(googleTopStyle, 10);
-    }
-    
-    const barHeightPx = barHeight + 'px';
-    
-    // ⚠️ 참고: 이 코드는 body.style.marginTop을 건드리지 않습니다.
-    // Google 위젯이 html.style.top을 설정하여 이미 본문 전체를 밀어내고 있습니다.
-    // 우리는 고정된(fixed) 네비게이션 바만 조정하면 됩니다.
 
-    // 2. 상태 적용 (Navbar와 NavToggle의 top 값을 <html>의 top 값과 일치시킴)
-    
-    // Navbar의 top이 barHeightPx와 다를 때만 업데이트 (성능 최적화)
-    if (navbar) {
-        navbar.style.setProperty('top', barHeightPx, 'important');
+    // 1. MutationObserver를 생성하여 <html>의 style 속성 변경을 감시
+    const observer = new MutationObserver((mutationsList) => {
+        for (const mutation of mutationsList) {
+            // 'style' 속성이 변경되었는지 확인
+            if (mutation.type === 'attributes' && mutation.attributeName === 'style') {
+                
+                let barHeight = 0;
+                // <html>의 style.top 값만 확인합니다. (body는 불필요)
+                let googleTopStyle = htmlElement.style.top; 
+                
+                if (googleTopStyle && googleTopStyle.endsWith('px')) {
+                    barHeight = parseInt(googleTopStyle, 10);
+                }
+                
+                const barHeightPx = barHeight + 'px'; // '0px' or '40px'
+                
+                // navbar의 top을 <html>의 top과 !important로 일치시킵니다.
+                if (navbar) {
+                    navbar.style.setProperty('top', barHeightPx, 'important');
+                }
+            }
+        }
+    });
+
+    // 2. <html> 요소의 'style' 속성 변경 감시 시작
+    observer.observe(htmlElement, {
+        attributes: true // 'style' 속성 변경만 감지
+    });
+
+    // 3. (중요) 초기 로드 시 <html>의 style.top이 비어있으므로,
+    //    navbar의 top을 '0px'로 명시적으로 설정하여 깜빡임을 방지합니다.
+    if (navbar && !htmlElement.style.top) {
+        navbar.style.setProperty('top', '0px', 'important');
     }
 }
+
+
 </script>
 <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
