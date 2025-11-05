@@ -154,15 +154,14 @@ function googleTranslateElementInit() {
 
 // isObserverCall: 옵저버에 의해 호출되었는지 확인하는 플래그 (기본값: false)
 function adjustLayoutForTranslateBar() {
-    const htmlElement = document.documentElement; // <html> 태그
+    const bodyElement = document.body; 
     const navbar = document.querySelector('.navbar');
-    const navToggle = document.querySelector('.nav-toggle');
     let barHeight = 0;
-    
+    let googleTopStyle = bodyElement.style.top;
     // 1. Google 위젯이 <html> 태그에 'style.top'을 설정했는지 확인합니다.
-    if (htmlElement.style.top && htmlElement.style.top.endsWith('px')) {
+    if (googleTopStyle && googleTopStyle.endsWith('px')) {
         // "40px" 같은 문자열에서 숫자 40을 추출합니다.
-        barHeight = parseInt(htmlElement.style.top, 10);
+        barHeight = parseInt(googleTopStyle, 10);
     }
     
     const barHeightPx = barHeight + 'px';
@@ -174,11 +173,8 @@ function adjustLayoutForTranslateBar() {
     // 2. 상태 적용 (Navbar와 NavToggle의 top 값을 <html>의 top 값과 일치시킴)
     
     // Navbar의 top이 barHeightPx와 다를 때만 업데이트 (성능 최적화)
-    if (navbar && navbar.style.top !== barHeightPx) {
+    if (navbar) {
         navbar.style.setProperty('top', barHeightPx, 'important');
-    }
-    if (navToggle && navToggle.style.top !== barHeightPx) {
-        navToggle.style.setProperty('top', barHeightPx, 'important');
     }
 }
 </script>
