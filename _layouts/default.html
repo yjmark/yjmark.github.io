@@ -97,6 +97,18 @@
   });
 </script>
 <script>
+    function reopenConsentBanner() {
+    const banner = document.getElementById('consent-banner-manual');
+    
+    // 1. 배너를 찾아서 'show' 클래스를 강제로 추가 (페이드인 효과)
+    if (banner) {
+        banner.classList.add('show');
+    }
+    
+    // 2. <a> 태그의 기본 동작(맨 위로 스크롤)을 막습니다.
+    return false;
+    }
+    
     function updateGAConsent(status) {
         const consentState = status === 'granted' ? 'granted' : 'denied';
 
@@ -125,6 +137,9 @@
         }
     }
 
+
+    
+    
     // When the page loaded, check the past allow/deny status and show the banner
     window.addEventListener('load', () => {
         const savedConsent = localStorage.getItem('cookie_consent');

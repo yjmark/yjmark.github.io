@@ -3,9 +3,13 @@ logo: "/images/1727547515470.jpg?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
   I am a civil servant in the Republic of Korea, where I work for the <a href="https://www.mnd.go.kr/mbshome/mbs/mndEN">Ministry of National Defense</a>. I am also a Non-resident Fellow at the <a href="https://newlinesinstitute.org/">New Lines Institute for Strategy and Policy</a> in Washington D.C. I hold a <a href="https://www.design.upenn.edu/urban-spatial-analytics">Master of Urban Spatial Analytics</a> degree from the <a href="https://www.design.upenn.edu">Stuart Weitzman School of Design, University of Pennsylvania</a>. My research focuses on applying and integrating geospatial information in the defense sector. I am also interested in street address systems, geocoding, and wayfinding that utilize mobile maps.
   <p>
-    <a href="https://www.linkedin.com/in/yjmark/">LinkedIn</a> | <a href="https://github.com/yjmark">GitHub</a>
+    <a href="https://www.linkedin.com/in/yjmark/">LinkedIn</a> | <a href="https://github.com/yjmark">GitHub</a> | <a href="#" 
+   id="manage-cookie-link" 
+   onclick="return reopenConsentBanner();">
+   Manage Cookie Settings</a>
   </p>
   <a href="#" onclick="return false;"><div id="google_translate_element"></div></a>
+  
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
 - jekyll-remote-theme
