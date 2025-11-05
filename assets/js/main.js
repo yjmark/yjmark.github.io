@@ -80,32 +80,41 @@ function googleTranslateElementInit() {
     );
 
     // 💡 초기화 직후, 번역 바 로딩을 확인하는 인터벌 시작
-    setInterval(adjustLayoutForTranslateBar, 500);
+    observeTranslateBar();
 }
 
+function observeTranslateBar() {
+    const navbar = document.querySelector('.navbar');
+    if (!navbar) return;
+
+    // 처음엔 무조건 top=0으로 고정
+    navbar.style.setProperty('top', '0px', 'important');
+
+    const observer = new MutationObserver(() => {
+        adjustLayoutForTranslateBar();
+    });
+
+    // <body> 스타일 변화를 감시 (Google Translate이 html/body에 top을 추가함)
+    observer.observe(document.documentElement, { attributes: true, attributeFilter: ['style'] });
+}
 
 // isObserverCall: 옵저버에 의해 호출되었는지 확인하는 플래그 (기본값: false)
 function adjustLayoutForTranslateBar() {
-    const bodyElement = document.body; 
+    const html = document.documentElement;
     const navbar = document.querySelector('.navbar');
-    let barHeight = 0;
-    let googleTopStyle = bodyElement.style.top;
-    // 1. Google 위젯이 <html> 태그에 'style.top'을 설정했는지 확인합니다.
-    if (googleTopStyle && googleTopStyle.endsWith('px')) {
-        // "40px" 같은 문자열에서 숫자 40을 추출합니다.
-        barHeight = parseInt(googleTopStyle, 10);
-    }
-    
-    const barHeightPx = barHeight + 'px';
-    
-    // ⚠️ 참고: 이 코드는 body.style.marginTop을 건드리지 않습니다.
-    // Google 위젯이 html.style.top을 설정하여 이미 본문 전체를 밀어내고 있습니다.
-    // 우리는 고정된(fixed) 네비게이션 바만 조정하면 됩니다.
+    if (!navbar) return;
 
-    // 2. 상태 적용 (Navbar와 NavToggle의 top 값을 <html>의 top 값과 일치시킴)
-    
-    // Navbar의 top이 barHeightPx와 다를 때만 업데이트 (성능 최적화)
-    if (navbar) {
-        navbar.style.setProperty('top', barHeightPx, 'important');
+    // html에 top 스타일이 설정됐는지 확인
+    const topStyle = html.style.top;
+    let barHeight = 0;
+
+    if (topStyle && topStyle.endsWith('px')) {
+        barHeight = parseInt(topStyle, 10);
+    }
+
+    // 현재 값과 다를 때만 업데이트
+    const targetTop = barHeight + 'px';
+    if (navbar.style.top !== targetTop) {
+        navbar.style.setProperty('top', targetTop, 'important');
     }
 }
