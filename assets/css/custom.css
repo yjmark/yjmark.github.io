@@ -21,6 +21,7 @@ section {
 
 .wrapper {
   max-width: 1194px;
+  width: auto;
 }
 
 .navbar {
