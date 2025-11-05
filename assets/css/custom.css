@@ -31,18 +31,20 @@ section {
 .navbar {
   position: fixed !important;
   top: 0;
-  left: 0;
-  width: 100%;
+  width: 95%;
   background: linear-gradient(
     to right,
-    rgba(205, 205, 205, 0.85),
+    rgba(255, 255, 255, 0.85),
     rgba(255, 255, 255, 0.80)
     );
   color: rgba(0, 55, 100, 1);
-  padding: 12px 0;
+  padding: 6px 0;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
   z-index: 9999 !important;
   transition: top 0.3s ease;
+  border-radius: 100px;
+  max-width: 1200px;
+  left: 50%;
 }
 
 .nav-container {
