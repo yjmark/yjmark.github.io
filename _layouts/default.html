@@ -137,9 +137,6 @@
     });
 </script>
 <script type="text/javascript">
-// 전역 변수: 로드 상태를 체크하는 인터벌 ID 저장
-let translateBarCheckInterval;
-
 function googleTranslateElementInit() {
     new google.translate.TranslateElement(
         {
@@ -178,10 +175,10 @@ function adjustLayoutForTranslateBar() {
     
     // Navbar의 top이 barHeightPx와 다를 때만 업데이트 (성능 최적화)
     if (navbar && navbar.style.top !== barHeightPx) {
-        navbar.style.top = barHeightPx;
+        navbar.style.setProperty('top', barHeightPx, 'important');
     }
     if (navToggle && navToggle.style.top !== barHeightPx) {
-        navToggle.style.top = barHeightPx;
+        navToggle.style.setProperty('top', barHeightPx, 'important');
     }
 }
 </script>
