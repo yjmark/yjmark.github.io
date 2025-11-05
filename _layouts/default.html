@@ -169,7 +169,10 @@ function googleTranslateElementInit() {
 
     // 💡 초기화 직후, 번역 바 로딩을 확인하는 인터벌 시작
     // 500ms(0.5초)마다 adjustLayoutForTranslateBar 함수를 호출하여 번역 바를 감지합니다.
-    setInterval(adjustLayoutForTranslateBar, 500);
+    setTimeout(() => {
+        // 1초 후에 0.25초마다 감시를 시작합니다.
+        setInterval(adjustLayoutForTranslateBar, 500);
+    }, 1000);
 }
 
 // isObserverCall: 옵저버에 의해 호출되었는지 확인하는 플래그 (기본값: false)

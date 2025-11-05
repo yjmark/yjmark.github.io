@@ -124,7 +124,7 @@ Click [here](https://yjmark.github.io/PPA_HW5/Jun_YoungsangHW5.html) to see the 
 
 ### Suggestion for Home Price Prediction Model in Philadelphia
 
-November 12, 2024<br> Worked with Agarwal, Vrinda<br> Instructor: [Prof. Fichman, Michael](http://michael-fichman.com/)
+November 12, 2024<br> Worked with [Agarwal, Vrinda](https://www.design.upenn.edu/yes2025/vrinda-agarwal)<br> Instructor: [Prof. Fichman, Michael](http://michael-fichman.com/)
 
 Let's assume Zillow has struggled to accurately estimate home prices, partly because it is a national platform that often lacks detailed, localized information. Urban dynamics have become increasingly complex, and understanding housing markets requires a more granular approach that incorporates local factors like government policies, crime, gentrification, pollution levels, and access to public transit. Our objective is to use local data to create a model that predicts Philadelphia home prices with greater accuracy. By incorporating data on crime, zoning, pollution, and transit-oriented development, we aim to build a more contextually rich model that reflects the true dynamics of the city. This example is drawn from [Steif (2021),<i> Public Policy Analytics</i>](https://urbanspatial.github.io/PublicPolicyAnalytics/index.html).
 
@@ -136,7 +136,7 @@ Click [here](https://yjmark.github.io/Midterm_Agarwal_Jun/Midterm_Agarwal_Jun_FI
 
 ### Forecast Train Occupancy Levels in Belgium
 
-December 13, 2024<br> Worked with Tutut, Indriaty<br> Instructor: [Prof. Fichman, Michael](http://michael-fichman.com/)
+December 13, 2024<br> Worked with [Indriaty, Tutut](https://tututind.github.io/portfolio/)<br> Instructor: [Prof. Fichman, Michael](http://michael-fichman.com/)
 
 Nationale Maatschappij der Belgische Spoorwegen (NMBS), or Société nationale des chemins de fer belges (SNCB) is the National Railway Company of Belgium and the largest railway operator in the country. Let's assume that the company needs to postpone its expansion due to a shortage of train personnel. Additionally, rising energy costs have increased operating expenses. Meanwhile, the company continues to face revenue losses due to low passenger numbers on some routes. Given these challenges, the company must develop a strategy to optimize resource allocation, improve operational efficiency, and increase revenue, particularly on low-occupancy routes. This project aims to provide transportation planners at NMBS with a model called Re-train, which is to predict train occupancy levels for different Origin-Destination (OD) pairs in the Belgian railway system by logistic regression.
 
@@ -222,19 +222,19 @@ November 1-30, 2024<br> Instructor: [Prof. Delmelle, Elizabeth](https://scholar.
 
 ### [(Multimodal Transport) Recommendation of Congestion Charging in Western Zone in London](pdf/HW1_London_Jun_Youngsang.docx)
 
-February 14, 2025<br> Instructor: Prof. Guerra, Erick
+February 14, 2025<br> Instructor: [Prof. Guerra, Erick](https://www.design.upenn.edu/people/erick-guerra)
 
 This memorandum recommends a careful approach to extending westward congestion charging from Central London, considering the following: First, given the high proportion of residents in western zone, explore ways to integrate the congestion charging policy with existing systems so that it does not feel like an additional regulatory burden to people. Second, introduce a two-zone system to effectively reduce traffic volume, but establish clear criteria to avoid confusion. Third, central and western zones have different key industries, which should be considered when implementing congestion charging.
 
 ### [(Multimodal Transport) Recommendations for Improving California High-speed Rail Project](pdf/HW2_CAHSR_Jun_Youngsang.pdf)
 
-April 8, 2025<br> Instructor: Prof. Guerra, Erick
+April 8, 2025<br> Instructor: [Prof. Guerra, Erick](https://www.design.upenn.edu/people/erick-guerra)
 
 This memorandum recommends alternatives for three persistent challenges facing the California High-Speed Rail (CAHSR) project. First, to address delays in rights-of-way acquisition, particularly interfering with public utilities, the Authority is recommended to strengthen cooperation with relevant agencies and pursue legislative solutions to expedite processes. Second, to build public trust, the Authority should conduct a transparent route decision process, including public hearings and sharing international case studies. Lastly, to induce long-term ridership, the Authority is recommended to integrate seamlessly with local transit systems through coordinated fare structures, including partnerships with ride-share and micromobility companies to enhance first- and last-mile connectivity.
 
 ### [(Introduction of the Transportation Planning) Four Memorandum of Transportation Planning in U.S.](pdf/Final_Jun.pdf)
 
-December 12, 2024<br> Instructor: Prof. Guerra, Erick
+December 12, 2024<br> Instructor: [Prof. Guerra, Erick](https://www.design.upenn.edu/people/erick-guerra)
 
 -   Recommendation of Transit-Oriented Development Plan for the City of Philadelphia
 
