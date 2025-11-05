@@ -27,6 +27,7 @@ header {
   padding: 12px 0;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
   z-index: 9999 !important;
+  transition: top 0.3s ease;
 }
 
 .nav-container {
@@ -123,7 +124,9 @@ span.consent-asking {
 }
 
 #consent-banner-manual {
-  display:none; 
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.5s ease, visibility 0.5s ease;
   position:fixed; 
   bottom:0; 
   width:100%;
@@ -138,6 +141,11 @@ span.consent-asking {
   text-align: center; 
   box-sizing: border-box;
   z-index: 9999;
+}
+
+#consent-banner-manual.show {
+  opacity: 1;
+  visibility: visible;
 }
 
 #consent-banner-manual button {
