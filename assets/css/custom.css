@@ -34,9 +34,9 @@ section {
   width: 98%;
   background: linear-gradient(
     to right,
-    rgba(255, 255, 255, 0.85),
+    rgba(238, 238, 238, 0.85),
     rgba(255, 255, 255, 0.80)
-    );
+    ); 
   color: rgba(0, 55, 100, 1);
   padding: 6px 0;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
@@ -161,7 +161,7 @@ span.consent-asking {
   left:0;
   background: linear-gradient(
     to left,
-    rgba(248, 248, 248, 0.85),
+    rgba(238, 238, 238, 0.85),
     rgba(255, 255, 255, 0.80)
     ); 
   color: rgb(0, 55, 100); 
