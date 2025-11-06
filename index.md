@@ -258,10 +258,10 @@ Page template forked from <a href="https://github.com/evanca/quick-portfolio">ev
   position: fixed;
   bottom: 30px;
   right: 30px;
-  background: rgba(0, 55, 100, 0.85);
-  color: white;
+  background: rgba(248, 248, 248, 0.85);
+  color: rgb(0,55,100);
   padding: 10px 15px;
-  border-radius: 5px;
+  border-radius: 20px;
   text-decoration: none;
   font-size: 16px;
 ">Top ↑</a>
