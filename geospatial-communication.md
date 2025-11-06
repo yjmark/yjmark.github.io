@@ -1,4 +1,4 @@
-## Communications using Geospatial Information
+## Geospatial Communication
 
 ### To Preserve and Well-manage Old Buildings in Philadelphia
 
