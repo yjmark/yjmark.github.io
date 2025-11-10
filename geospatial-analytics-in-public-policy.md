@@ -12,7 +12,7 @@ Robotaxi adoption is no longer hypothetical. This study provides visualization a
 
 Click [here](https://yjmark.github.io/robotaxi/) to see the live version of the dashboard and [here](https://github.com/yjmark/robotaxi/blob/main/Robotaxi%20Final%20Presentation.pptx) to see the final presentation slide deck.
 
-<img src="images/robotaxi.jpeg?raw=true"/>
+[Screenshot of the web app showing a map of San Francisco, CA, with a layer of points and attribute data of robotaxi crash incidents overlaid. The Incident List, which is on the top left, crashes are filtered by the visible map area when zoomed in. You can add, edit, or delete incident entries. On the Independent Variable Layers Lists, which is on the bottom left, toggle switches allow you to view the spatial distribution of each independent variable. Additionally, there are three crash density prediction scenarios based on a Random Forest (RF) model. The radar chart on the top right shows how each block group scores on the Top-4 SHAP-contributing variables, which are SVI enclosures, Population, Building densitiy, and Commericial POI density.](images/robotaxi.jpeg?raw=true)
 
 ------------------------------------------------------------------------
 

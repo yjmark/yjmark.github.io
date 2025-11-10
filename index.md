@@ -16,9 +16,9 @@ This assignment aims to create a complete classification of all military install
 
 Click [here](https://github.com/yjmark/Remote-sensing/blob/main/assignments/Final_Jun_Youngsang/Final_Jun_Youngsang.pptx) to see the final slide deck.
 
-![The flow chart shows procedure data collection and processing; Model 1, the Random Forest model with directly obtained image values such as NDVI, BSI, and NTL; Model 1 training and validation; Model 2, the Clay Foundation Model, which is the Random Forest model with image-based pre-trained model; Model 2 training and validation; Compare two models' performance](images/rs1.png?raw=true)
+![The flow chart shows procedure data collection and processing; Model 1, the Random Forest model with directly obtained image values such as NDVI, BSI, and NTL; Model 1 training and validation; Model 2, the Clay Foundation Model, which is the Random Forest model with an image-based pre-trained model; Model 2 training and validation; Compare the two models' performance](images/rs1.png?raw=true)
 
-![Eight different satellite image pieces that shows true values and the prediction results were different. (e.g. true values are airfields but the prediction results were others such as danger area, range, base etc.)](images/rs2.png?raw=true)
+![Eight different satellite image pieces, for which their true classification values and the prediction classification results were different. (e.g., true classification values are airfields, but the prediction results were others, such as danger area, range, base, etc.)](images/rs2.png?raw=true)
 
 ------------------------------------------------------------------------
 
@@ -30,7 +30,7 @@ This storymap aims to provide a brief history of the U.S. military and an overvi
 
 Click [here](https://yjmark.github.io/story-map-project/Jun_Youngsang/) to see the live version of the storymap.
 
-![Screenshot of the web app that shows satellite image map of Eglin Air Force Base located in Florida, U.S. with the explanation of its history.](images/storymapimage.jpeg?raw=true)
+![Screenshot of the web app showing a satellite image map of Eglin Air Force Base located in Florida, U.S., with the explanation of its history.](images/storymapimage.jpeg?raw=true)
 
 ------------------------------------------------------------------------
 
@@ -42,7 +42,7 @@ The DefenseBoard is a dashboard that uses spatial data to link various types of 
 
 Click [here](https://yjmark.github.io/dashboard-project/Jun_Youngsang/) to see the live version of the DefenseBoard.
 
-![Screenshot of the web app that shows satellite image map of the U.S. continent and the layer of bubbles and numbers overlayed. that represents Fiscal Year 2023 installation budget of Department of Defense.](images/dashboardimage.jpeg?raw=true)
+![Screenshot of the web app showing a satellite image map of the U.S. continent, with a layer of bubbles and numbers overlaid. The numbers represent the Fiscal Year 2023 installation budget of the Department of Defense, which are fictitious and do not reflect actual data.](images/dashboardimage.jpeg?raw=true)
 
 ------------------------------------------------------------------------
 
@@ -54,7 +54,7 @@ The Base Management System is a system for manage all kinds of events in a milit
 
 Click [here](https://yjmark.github.io/engagement-project/Jun_Youngsang/) to see the live version of the Base Management System.
 
-<img src="images/engagementimage.jpeg?raw=true"/>
+![Screenshot of the web app showing a map of Norfolk Naval Base, VA, with a layer of points and attribute data overlaid. The points on the map represent the events that will happen or are happening in the installation. One point on the screenshot shows V-29 Remodeling Construction, CAPT Wiggins in charge of it, which is held from January 30, 2025 to January 29, 2026. The event list on the left side includes 5 or more events like this, and users allow to edit or delete each event. Those are fictitious and do not reflect actual data.](images/engagementimage.jpeg?raw=true)
 
 ------------------------------------------------------------------------
 
