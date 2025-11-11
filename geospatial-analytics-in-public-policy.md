@@ -1,4 +1,4 @@
-## <a id="defs" style="scroll-margin-top: 80px;"></a>Geospatial Analytics in Public Policy
+## <a id="defs" style="scroll-margin-top: 85px;"></a>Geospatial Analytics in Public Policy
 
 Geospatial analytics plays a critical role in the field of public policy. Here are some examples demonstrating the use of geospatial information in public policy with R and open data.
 
