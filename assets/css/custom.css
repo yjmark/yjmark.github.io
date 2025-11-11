@@ -63,8 +63,12 @@ section {
 .nav-title {
   font-weight: bold;
   color: rgba(0, 55, 100, 1);
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   font-weight: bold;
+}
+
+.nav-title:hover {
+  color: rgb(127, 101, 253); 
 }
 
 .nav-toggle {
@@ -104,6 +108,7 @@ section {
 
 .nav-links li a:hover {
   text-decoration: underline;
+  color: rgb(127, 101, 253); 
   font-weight: normal;
 }
 
