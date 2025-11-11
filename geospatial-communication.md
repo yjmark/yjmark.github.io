@@ -1,5 +1,9 @@
 ## <a id="defs" style="scroll-margin-top: 85px;"></a>Geospatial Communication
 
+Geospatial information is a powerful tool for communicating through storytelling. The following examples, including [30 Day Map Challenge](https://30daymapchallenge.com/)—<i>daily social mapping project happening every November</i>—show my communication skills using geospatial data that is both accessible and reproducible. Professional memorandum writing samples in transportation are provided below as well.
+
+------------------------------------------------------------------------
+
 ### To Preserve and Well-manage Old Buildings in Philadelphia
 
 November 19, 2024<br> Instructor: [Prof. Delmelle, Elizabeth](https://scholar.google.com/citations?user=BjewFecAAAAJ&hl=en)
@@ -15,8 +19,6 @@ Click [here](https://yjmark.github.io/Reproducible_Data-Driven_Story/HW5_Jun_You
 ### 30 Day Map Challenge
 
 November 1-30, 2024<br> Instructor: [Prof. Delmelle, Elizabeth](https://scholar.google.com/citations?user=BjewFecAAAAJ&hl=en)
-
-[The 30 Day Map Challenge](https://30daymapchallenge.com/) is <i>daily social mapping project happening every November</i>. In November 2024, I participated in this challenge on Day 1 (Points), Day 5 (Journey), Day 10 (Pen and Paper), Day 12 (Time and Space), Day 14 (A World Map), Day 16 (Choropleth), Day 20 (Openstreetmap), Day 22 (Two Colors), Day 24 (Only Circular), and Day 25 (Heat) to enhance my communication skills using geospatial data that is both accessible and reproducible.
 
 [Day 1 Points: Night of Savannah](https://github.com/yjmark/30DayMapChallenge_2024_Jun/blob/main/Day01_PointsofStreetLights/) <br>The map denotes 19,024 street lights' location in the City of Savannah which Georgia Power owned.<br><br><img src="https://raw.githubusercontent.com/yjmark/30DayMapChallenge_2024_Jun/main/Day01_PointsofStreetLights/01-youngsang-jun.png?raw=true"/>
 
@@ -55,6 +57,34 @@ November 1-30, 2024<br> Instructor: [Prof. Delmelle, Elizabeth](https://scholar.
 ------------------------------------------------------------------------
 
 [Day 25 Heat: Philadelphia 2024 Crime Incidents Heat Map](https://github.com/yjmark/30DayMapChallenge_2024_Jun/blob/main/Day25_Heat/) <br>What are the most dangerous neighborhoods in Philadelphia? A heat map displaying the number of incidents in 2024—categorized by drug offenses, burglaries, and thefts—is shown with police district boundaries and station locations. <br><img src="https://raw.githubusercontent.com/yjmark/30DayMapChallenge_2024_Jun/main/Day25_Heat/25-youngsang-jun.png?raw=true"/>
+
+------------------------------------------------------------------------
+
+### Transportation Memorandum Writing Samples
+
+#### [(Multimodal Transport) Recommendation of Congestion Charging in Western Zone in London](pdf/HW1_London_Jun_Youngsang.docx)
+
+February 14, 2025<br> Instructor: [Prof. Guerra, Erick](https://www.design.upenn.edu/people/erick-guerra)
+
+This memorandum recommends a careful approach to extending westward congestion charging from Central London, considering the following: First, given the high proportion of residents in western zone, explore ways to integrate the congestion charging policy with existing systems so that it does not feel like an additional regulatory burden to people. Second, introduce a two-zone system to effectively reduce traffic volume, but establish clear criteria to avoid confusion. Third, central and western zones have different key industries, which should be considered when implementing congestion charging.
+
+#### [(Multimodal Transport) Recommendations for Improving California High-speed Rail Project](pdf/HW2_CAHSR_Jun_Youngsang.pdf)
+
+April 8, 2025<br> Instructor: [Prof. Guerra, Erick](https://www.design.upenn.edu/people/erick-guerra)
+
+This memorandum recommends alternatives for three persistent challenges facing the California High-Speed Rail (CAHSR) project. First, to address delays in rights-of-way acquisition, particularly interfering with public utilities, the Authority is recommended to strengthen cooperation with relevant agencies and pursue legislative solutions to expedite processes. Second, to build public trust, the Authority should conduct a transparent route decision process, including public hearings and sharing international case studies. Lastly, to induce long-term ridership, the Authority is recommended to integrate seamlessly with local transit systems through coordinated fare structures, including partnerships with ride-share and micromobility companies to enhance first- and last-mile connectivity.
+
+#### [(Introduction of the Transportation Planning) Four Memorandum of Transportation Planning in U.S.](pdf/Final_Jun.pdf)
+
+December 12, 2024<br> Instructor: [Prof. Guerra, Erick](https://www.design.upenn.edu/people/erick-guerra)
+
+-   Recommendation of Transit-Oriented Development Plan for the City of Philadelphia
+
+-   Review of the Proposed Minimum Parking Requirements for New Multifamily Housing Developments
+
+-   Recommendation of Philadelphia City Cycle Strategy
+
+-   Recommendation of Purchasing Cars Subsidy Policy for Low-income Households
 
 ------------------------------------------------------------------------
 
