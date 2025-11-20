@@ -70,6 +70,7 @@ section {
   color: rgba(0, 55, 100, 1);
   font-size: 1.3rem;
   font-weight: bold;
+  font-family: 'Sofia Sans', sans-serif !important;
 }
 
 .nav-title:hover {
