@@ -1,8 +1,8 @@
-body, p, span, a, div, button {
+body, p, span, div, button {
   font-family: 'Lato', sans-serif !important;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, nav {
   font-family: 'Sofia Sans', sans-serif !important;
 }
 
