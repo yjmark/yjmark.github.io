@@ -42,6 +42,8 @@
    <!--[if lt IE 9]>
    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
    <![endif]-->
+   <!-- Memberstack webflow package -->
+  <script data-memberstack-app="app_cmlg049hp014e0stj8iiabxec" src="https://static.memberstack.com/scripts/v2/memberstack.js" type="text/javascript"></script>
 </head>
 <body>
   {% include header.html %}
@@ -72,8 +74,26 @@
          {% endif %}
       </header>
 
-      <section>
-         {{ content }}
+      <section style="position: relative;">
+          <div class="portfolio-content">
+              {{ content }}
+          </div>
+      
+          <div id="content-gate" data-ms-content="!members">
+              <div class="gate-message">
+                  <h3>포트폴리오 전체 보기</h3>
+                  <p>이메일을 입력하면 전체 내용을 확인할 수 있는 링크를 보내드립니다.</p>
+                  
+                  <form data-ms-form="signup">
+                      <input type="email" data-ms-member="email" placeholder="name@example.com" required>
+                      <button type="submit">계속하기</button>
+                  </form>
+                  
+                  <p style="font-size: 12px; margin-top: 10px; color: #666;">
+                      이미 등록하셨나요? <a href="#" data-ms-modal="login">로그인</a>
+                  </p>
+              </div>
+          </div>
       </section>
 
       <footer>
